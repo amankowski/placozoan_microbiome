@@ -1,0 +1,2325 @@
+FFINEN_00005		hypothetical protein
+FFINEN_00010		hypothetical protein
+FFINEN_00015		IS982 family transposase
+FFINEN_00020		hypothetical protein
+FFINEN_00025		hypothetical protein
+FFINEN_00030		hypothetical protein
+FFINEN_00035		L-allo-threonine aldolase
+FFINEN_00040		Threonine aldolase
+FFINEN_00045		ABC transporter ATP-binding protein
+FFINEN_00050		hypothetical protein
+FFINEN_00055		Histidine phosphatase family protein
+FFINEN_00060		NAD(P)-dependent oxidoreductase
+FFINEN_00065		Radical SAM core domain-containing protein
+FFINEN_00070		hypothetical protein
+FFINEN_00075		type IV secretion system DNA-binding domain-containing protein
+FFINEN_00080		hypothetical protein
+FFINEN_00085		hypothetical protein
+FFINEN_00090		DUF1016 domain-containing protein
+FFINEN_00095		hypothetical protein
+FFINEN_00100		hypothetical protein
+FFINEN_00105		hypothetical protein
+FFINEN_00110		hypothetical protein
+FFINEN_00115		PIN domain-containing protein
+FFINEN_00120		hypothetical protein
+FFINEN_00125		conjugal transfer protein TraN
+FFINEN_00130		hypothetical protein
+FFINEN_00135		type-F conjugative transfer system pilin assembly protein TrbC
+FFINEN_00140		Conjugal transfer pilus assembly protein TraU
+FFINEN_00145		hypothetical protein
+FFINEN_00150		type-F conjugative transfer system protein TraW
+FFINEN_00155		hypothetical protein
+FFINEN_00160		hypothetical protein
+FFINEN_00165		hypothetical protein
+FFINEN_00170		hypothetical protein
+FFINEN_00175		hypothetical protein
+FFINEN_00180		hypothetical protein
+FFINEN_00185		Conjugal transfer protein
+FFINEN_00190		hypothetical protein
+FFINEN_00195		type-F conjugative transfer system protein TraW
+FFINEN_00200		hypothetical protein
+FFINEN_00205		hypothetical protein
+FFINEN_00210		hypothetical protein
+FFINEN_00215		hypothetical protein
+FFINEN_00220		hypothetical protein
+FFINEN_00225		type IV conjugative transfer system protein TraE
+FFINEN_00230		hypothetical protein
+FFINEN_00235		hypothetical protein
+FFINEN_00240		hypothetical protein
+FFINEN_00245		hypothetical protein
+FFINEN_00250		hypothetical protein
+FFINEN_00255		hypothetical protein
+FFINEN_00260		hypothetical protein
+FFINEN_00265		hypothetical protein
+FFINEN_00270		hypothetical protein
+FFINEN_00275		hypothetical protein
+FFINEN_00280		hypothetical protein
+FFINEN_00285		hypothetical protein
+FFINEN_00290		hypothetical protein
+FFINEN_00295		hypothetical protein
+FFINEN_00300		hypothetical protein
+FFINEN_00305		hypothetical protein
+FFINEN_00310		AAA domain-containing protein
+FFINEN_00315		recombinase family protein
+FFINEN_00320		recombinase family protein
+FFINEN_00325		DNA helicase
+FFINEN_00330		Transposase for insertion sequence element IS629
+FFINEN_00335		hypothetical protein
+FFINEN_00340		Accessory factor UbiK family protein
+FFINEN_00345		Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase
+FFINEN_00350		hypothetical protein
+FFINEN_00355		hypothetical protein
+FFINEN_00360		DUF2063 domain-containing protein
+FFINEN_00365		DoxX family protein
+FFINEN_00370	petA	ubiquinol-cytochrome c reductase iron-sulfur subunit
+FFINEN_00375		Polyprenyl synthetase family protein
+FFINEN_00380		DNA ligase
+FFINEN_00385		iron-sulfur cluster assembly protein
+FFINEN_00390		Cysteine desulfurase
+FFINEN_00395		SufD family Fe-S cluster assembly protein
+FFINEN_00400		hypothetical protein
+FFINEN_00405	sufB	Fe-S cluster assembly protein SufB
+FFINEN_00410		Sporulation initiation inhibitor protein Soj
+FFINEN_00415		putative chromosome-partitioning protein ParB
+FFINEN_00420		hypothetical protein
+FFINEN_00425		hypothetical protein
+FFINEN_00430		Protease 2
+FFINEN_00435		hypothetical protein
+FFINEN_00440		hypothetical protein
+FFINEN_00445		hypothetical protein
+FFINEN_00450		hypothetical protein
+FFINEN_00455		AAA family ATPase
+FFINEN_00460		DNA-pol-B-exo2 domain-containing protein
+FFINEN_00465		Chromosomal replication initiator protein DnaA
+FFINEN_00470		hypothetical protein
+FFINEN_00475		hypothetical protein
+FFINEN_00480		hypothetical protein
+FFINEN_00485		Ribonuclease VapC22
+FFINEN_00490		type II toxin-antitoxin system Phd/YefM family antitoxin
+FFINEN_00495		HU family DNA-binding protein
+FFINEN_00500		hypothetical protein
+FFINEN_00505		hypothetical protein
+FFINEN_00510		hypothetical protein
+FFINEN_00515		hypothetical protein
+FFINEN_00520		Tyr recombinase domain-containing protein
+FFINEN_00525		UDP-glucose 6-dehydrogenase
+FFINEN_00530		hypothetical protein
+FFINEN_00535		hypothetical protein
+FFINEN_00540		AAA-ATPase-like domain-containing protein
+FFINEN_00545		HU family DNA-binding protein
+FFINEN_00550		DUF2312 domain-containing protein
+FFINEN_00555		Single-stranded DNA-binding protein
+FFINEN_00560		Cold shock-like protein CspA
+FFINEN_00565		Bax inhibitor-1/YccA family protein
+FFINEN_00570		Fido domain-containing protein
+FFINEN_00575		hypothetical protein
+FFINEN_00580		hypothetical protein
+FFINEN_00585		hypothetical protein
+FFINEN_00590		Type III pantothenate kinase
+FFINEN_00595		hypothetical protein
+FFINEN_00600		hypothetical protein
+FFINEN_00605		Exodeoxyribonuclease III
+FFINEN_00610		DUF445 domain-containing protein
+FFINEN_00615		hypothetical protein
+FFINEN_00620		hypothetical protein
+FFINEN_00625		NADH-quinone oxidoreductase subunit
+FFINEN_00630		NADH-quinone oxidoreductase subunit B
+FFINEN_00635		Delta-aminolevulinic acid dehydratase
+FFINEN_00640		Peptidoglycan lytic exotransglycosylase
+FFINEN_00645		Tim44 domain-containing protein
+FFINEN_00650	secB	protein-export chaperone SecB
+FFINEN_00655		Flagellar biosynthetic protein FliQ
+FFINEN_00660		MFS transporter
+FFINEN_00665		Phosphatidylserine decarboxylase proenzyme
+FFINEN_00670		CDP-diacylglycerol--serine O-phosphatidyltransferase
+FFINEN_00675		aldehyde dehydrogenase family protein
+FFINEN_00680		Efflux RND transporter periplasmic adaptor subunit
+FFINEN_00685		citrate synthase
+FFINEN_00690		Type IV secretion system protein virB4
+FFINEN_00700		hypothetical protein
+FFINEN_00705		DNA repair protein RecN
+FFINEN_00710		hypothetical protein
+FFINEN_00715		Peptide deformylase
+FFINEN_00720		hypothetical protein
+FFINEN_00725		hypothetical protein
+FFINEN_00730		Penicillin-binding protein 2
+FFINEN_00735		hypothetical protein
+FFINEN_00740		hypothetical protein
+FFINEN_00745		DNA repair protein RecO
+FFINEN_00750		D-fructose 1,6-bisphosphatase class 2/sedoheptulose 1,7-bisphosphatase
+FFINEN_00755		Bifunctional ligase/repressor BirA
+FFINEN_00760		ATP-dependent chaperone ClpB
+FFINEN_00765		Glutamate decarboxylase
+FFINEN_00770		isoleucine--tRNA ligase
+FFINEN_00775		hypothetical protein
+FFINEN_00780		Amino acid permease
+FFINEN_00785		tRNA (guanine-N(7)-)-methyltransferase
+FFINEN_00790		tRNA modification GTPase MnmE
+FFINEN_00795		tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+FFINEN_00800		AAA-31 domain-containing protein
+FFINEN_00805		putative chromosome-partitioning protein ParB
+FFINEN_00810		Protein TolQ
+FFINEN_00815		Peptidyl-prolyl cis-trans isomerase
+FFINEN_00820		ATP-dependent protease subunit HslV
+FFINEN_00825		hypothetical protein
+FFINEN_00830	pgsA	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+FFINEN_00835		UvrABC system protein C
+FFINEN_00840		hypothetical protein
+FFINEN_00845		DNA primase
+FFINEN_00850		hypothetical protein
+FFINEN_00855		Riboflavin biosynthesis protein
+FFINEN_00860		Formamidopyrimidine-DNA glycosylase
+FFINEN_00865		class I SAM-dependent methyltransferase
+FFINEN_00870		hypothetical protein
+FFINEN_00875		hypothetical protein
+FFINEN_00880		NADPH-dependent oxidoreductase
+FFINEN_00885		hypothetical protein
+FFINEN_00890		Heme lyase CcmF/NrfE family subunit
+FFINEN_00895		hypothetical protein
+FFINEN_00900		hypothetical protein
+FFINEN_00905		Dihydrolipoyl dehydrogenase
+FFINEN_00910		Cysteine--tRNA ligase
+FFINEN_00915		hypothetical protein
+FFINEN_00920		hypothetical protein
+FFINEN_00925		hypothetical protein
+FFINEN_00930		Sec-independent protein translocase protein TatC
+FFINEN_00935		Serine--tRNA ligase
+FFINEN_00940		RDD family protein
+FFINEN_00945		hypothetical protein
+FFINEN_00950		hypothetical protein
+FFINEN_00955		hypothetical protein
+FFINEN_00960		iron-containing redox enzyme family protein
+FFINEN_00965		hypothetical protein
+FFINEN_00970		HU family DNA-binding protein
+FFINEN_00975		Antitoxin
+FFINEN_00980		hypothetical protein
+FFINEN_00985		Sulfurtransferase
+FFINEN_00990		Superoxide dismutase
+FFINEN_00995		hypothetical protein
+FFINEN_01000		hypothetical protein
+FFINEN_01005		hypothetical protein
+FFINEN_01010		hypothetical protein
+FFINEN_01015		hypothetical protein
+FFINEN_01020		hypothetical protein
+FFINEN_01025		hypothetical protein
+FFINEN_01030		hypothetical protein
+FFINEN_01040		Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+FFINEN_01045	rplQ	50S ribosomal protein L17
+FFINEN_01050		DNA-directed RNA polymerase subunit alpha
+FFINEN_01055	rpsK	30S ribosomal protein S11
+FFINEN_01060	rpsM	30S ribosomal protein S13
+FFINEN_01065		hypothetical protein
+FFINEN_01070		RlmE family RNA methyltransferase
+FFINEN_01075		hypothetical protein
+FFINEN_01080		hypothetical protein
+FFINEN_01085		Pyridoxal phosphate-dependent aminotransferase family protein
+FFINEN_01090		Biotin synthase
+FFINEN_01095		Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+FFINEN_01100		alpha/beta fold hydrolase
+FFINEN_01105		hypothetical protein
+FFINEN_01110		hypothetical protein
+FFINEN_01115		hypothetical protein
+FFINEN_01120		hypothetical protein
+FFINEN_01125		Cadmium-translocating P-type ATPase
+FFINEN_01130		hypothetical protein
+FFINEN_01135		transcriptional repressor
+FFINEN_01140		Quaternary ammonium compound-resistance protein SugE
+FFINEN_01145		DNA gyrase subunit B
+FFINEN_01150		MFS transporter
+FFINEN_01155		glycoside hydrolase TIM-barrel-like domain-containing protein
+FFINEN_01160		hypothetical protein
+FFINEN_01165		hypothetical protein
+FFINEN_01170		hypothetical protein
+FFINEN_01175		conjugal transfer protein TraH
+FFINEN_01180		hypothetical protein
+FFINEN_01185		hypothetical protein
+FFINEN_01190		hypothetical protein
+FFINEN_01195	uvrB	excinuclease ABC subunit UvrB
+FFINEN_01200		hypothetical protein
+FFINEN_01205		UDP-N-acetylmuramoylalanine--D-glutamate ligase
+FFINEN_01210		UPF0102 protein EIC27_00570
+FFINEN_01215		NADPH-dependent 7-cyano-7-deazaguanine reductase QueF
+FFINEN_01220		7-cyano-7-deazaguanine synthase
+FFINEN_01225		Phosphoglycerate kinase
+FFINEN_01230		Glyceraldehyde-3-phosphate dehydrogenase
+FFINEN_01235		SufE family protein
+FFINEN_01240		hypothetical protein
+FFINEN_01245		hypothetical protein
+FFINEN_01250		hypothetical protein
+FFINEN_01255		Glutamine-dependent NAD(+) synthetase
+FFINEN_01260		INTRADIOL-DIOXYGENAS domain-containing protein
+FFINEN_01265		hypothetical protein
+FFINEN_01270		Triosephosphate isomerase
+FFINEN_01275		hypothetical protein
+FFINEN_01280		hypothetical protein
+FFINEN_01285		acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha
+FFINEN_01290		hypothetical protein
+FFINEN_01295		hypothetical protein
+FFINEN_01300		hypothetical protein
+FFINEN_01305		hypothetical protein
+FFINEN_01310		hypothetical protein
+FFINEN_01315		ABC transporter permease
+FFINEN_01320		ATP-binding cassette domain-containing protein
+FFINEN_01325		hypothetical protein
+FFINEN_01330	fliP	flagellar type III secretion system pore protein FliP
+FFINEN_01335		Valine--tRNA ligase
+FFINEN_01340		ATP synthase F1 subunit delta
+FFINEN_01345		hypothetical protein
+FFINEN_01350		MFS transporter
+FFINEN_01355		Transporter
+FFINEN_01360		Porin
+FFINEN_01365		ATP-dependent zinc metalloprotease FtsH
+FFINEN_01370		Kinase/pyrophosphorylase
+FFINEN_01375		Surface antigen
+FFINEN_01380		Enoyl-[acyl-carrier-protein] reductase [NADH]
+FFINEN_01385		hypothetical protein
+FFINEN_01390		Nucleoside diphosphate kinase
+FFINEN_01400		MFS domain-containing protein
+FFINEN_01405		hypothetical protein
+FFINEN_01410		AbrB/MazE/SpoVT family DNA-binding domain-containing protein
+FFINEN_01415		hypothetical protein
+FFINEN_01420		hypothetical protein
+FFINEN_01425		Fido domain-containing protein
+FFINEN_01430		tyrosine-type recombinase/integrase
+FFINEN_01435		hypothetical protein
+FFINEN_01440		AAA family ATPase
+FFINEN_01445		Replication-associated recombination protein A
+FFINEN_01450		hypothetical protein
+FFINEN_01455		hypothetical protein
+FFINEN_01460		Phospholipase
+FFINEN_01465		Cell wall polymerase
+FFINEN_01470		MFS transporter
+FFINEN_01475		hypothetical protein
+FFINEN_01480		Flagellin
+FFINEN_01485		DNA mismatch repair protein MutS
+FFINEN_01490	gatB	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB
+FFINEN_01495		Znf/thioredoxin-put domain-containing protein
+FFINEN_01500		MFS transporter
+FFINEN_01505		DUF2497 domain-containing protein
+FFINEN_01510		hypothetical protein
+FFINEN_01515		ankyrin repeat domain-containing protein
+FFINEN_01520		tRNA(Ile)-lysidine synthase
+FFINEN_01525		RNA polymerase sigma-54 factor
+FFINEN_01530		hypothetical protein
+FFINEN_01535		EAL domain-containing protein
+FFINEN_01540		succinate dehydrogenase iron-sulfur subunit
+FFINEN_01545		Outer membrane protein assembly factor BamD
+FFINEN_01550		UDP-N-acetylmuramate--L-alanine ligase
+FFINEN_01555		Pyruvate dehydrogenase E1 component subunit alpha
+FFINEN_01560		Flavodoxin family protein
+FFINEN_01565		hypothetical protein
+FFINEN_01570		Membrane fusion protein (MFP) family protein
+FFINEN_01575		Type I secretion system permease/ATPase
+FFINEN_01580		Exodeoxyribonuclease 7 small subunit
+FFINEN_01585		hypothetical protein
+FFINEN_01590		histidine--tRNA ligase
+FFINEN_01595		hypothetical protein
+FFINEN_01600		hypothetical protein
+FFINEN_01605		hypothetical protein
+FFINEN_01610		hypothetical protein
+FFINEN_01615		hypothetical protein
+FFINEN_01620		hypothetical protein
+FFINEN_01625		Bifunctional protein GlmU
+FFINEN_01630		LTA synthase family protein
+FFINEN_01635		hypothetical protein
+FFINEN_01640		3-demethoxyubiquinol 3-hydroxylase
+FFINEN_01645		Disulfide bond formation protein B
+FFINEN_01650		cytochrome c oxidase accessory protein CcoG
+FFINEN_01655		Thioredoxin
+FFINEN_01660	infA	translation initiation factor IF-1
+FFINEN_01665		hypothetical protein
+FFINEN_01670		Dihydropteroate synthase
+FFINEN_01675		Type II toxin-antitoxin system RatA family toxin
+FFINEN_01680		hypothetical protein
+FFINEN_01685		Amino acid ABC transporter ATP-binding protein
+FFINEN_01690		Putative glutamine transport system permease protein GlnP
+FFINEN_01695		hypothetical protein
+FFINEN_01705		hypothetical protein
+FFINEN_01710		hypothetical protein
+FFINEN_01715		Group II intron reverse transcriptase/maturase
+FFINEN_01720		hypothetical protein
+FFINEN_01725		hypothetical protein
+FFINEN_01730		HU family DNA-binding protein
+FFINEN_01735		hypothetical protein
+FFINEN_01740		WGR domain-containing protein
+FFINEN_01745		hypothetical protein
+FFINEN_01750		hypothetical protein
+FFINEN_01755		SAM-dependent methyltransferase
+FFINEN_01760		hypothetical protein
+FFINEN_01765		hypothetical protein
+FFINEN_01770		type IV conjugative transfer system protein TraE
+FFINEN_01775		Conjugal transfer pilus assembly protein TraL
+FFINEN_01780		hypothetical protein
+FFINEN_01785		hypothetical protein
+FFINEN_01790		hypothetical protein
+FFINEN_01795		Mechanosensitive ion channel protein MscS
+FFINEN_01800		hypothetical protein
+FFINEN_01805		hypothetical protein
+FFINEN_01810		hypothetical protein
+FFINEN_01815		bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC
+FFINEN_01820		hypothetical protein
+FFINEN_01825		hypothetical protein
+FFINEN_01830		Ferredoxin--NADP reductase
+FFINEN_01835		hypothetical protein
+FFINEN_01845		hypothetical protein
+FFINEN_01850		hypothetical protein
+FFINEN_01855	infC	translation initiation factor IF-3
+FFINEN_01860	thrS	threonine--tRNA ligase
+FFINEN_01865		Dicarboxylate/amino acid:cation symporter
+FFINEN_01870		PNPLA domain-containing protein
+FFINEN_01875		hypothetical protein
+FFINEN_01880		hypothetical protein
+FFINEN_01885		Endonuclease III
+FFINEN_01890		PKS-ER domain-containing protein
+FFINEN_01895		CarD family transcriptional regulator
+FFINEN_01900		hypothetical protein
+FFINEN_01905		hypothetical protein
+FFINEN_01910		hypothetical protein
+FFINEN_01915		hypothetical protein
+FFINEN_01920		30S ribosomal protein S1
+FFINEN_01925		hypothetical protein
+FFINEN_01930		Dihydrolipoyl dehydrogenase
+FFINEN_01935		hypothetical protein
+FFINEN_01940		Disulfide bond formation protein B
+FFINEN_01945		hypothetical protein
+FFINEN_01950		preprotein translocase subunit YajC
+FFINEN_01955		2Fe-2S iron-sulfur cluster-binding protein
+FFINEN_01960		hypothetical protein
+FFINEN_01965		Peptidoglycan-associated protein
+FFINEN_01970		Pseudouridine synthase
+FFINEN_01975		hypothetical protein
+FFINEN_01980		NAD kinase
+FFINEN_01985		Smr/MutS family protein
+FFINEN_01990		Uroporphyrinogen-III synthase
+FFINEN_01995		Leucine--tRNA ligase
+FFINEN_02000		hypothetical protein
+FFINEN_02005		1-acyl-sn-glycerol-3-phosphate acyltransferase
+FFINEN_02010		3-deoxy-manno-octulosonate cytidylyltransferase
+FFINEN_02015		hypothetical protein
+FFINEN_02020		hypothetical protein
+FFINEN_02025		hypothetical protein
+FFINEN_02030		hypothetical protein
+FFINEN_02035		Protein ParA
+FFINEN_02040		hypothetical protein
+FFINEN_02045		hypothetical protein
+FFINEN_02050		hypothetical protein
+FFINEN_02055		hypothetical protein
+FFINEN_02060		hypothetical protein
+FFINEN_02065		N-acetyltransferase
+FFINEN_02070		Flagellar biosynthetic protein FlhB
+FFINEN_02075		hypothetical protein
+FFINEN_02080		Translational regulator CsrA
+FFINEN_02085		hypothetical protein
+FFINEN_02090		HK97 family phage major capsid protein
+FFINEN_02100		HK97 family phage prohead protease
+FFINEN_02105		EVE domain-containing protein
+FFINEN_02110		Porin family protein
+FFINEN_02115		hypothetical protein
+FFINEN_02120		Pseudouridine synthase
+FFINEN_02125	nrdR	transcriptional regulator NrdR
+FFINEN_02130		UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+FFINEN_02135		hypothetical protein
+FFINEN_02140		hypothetical protein
+FFINEN_02145		hypothetical protein
+FFINEN_02150		hypothetical protein
+FFINEN_02155		hypothetical protein
+FFINEN_02160		hypothetical protein
+FFINEN_02165		hypothetical protein
+FFINEN_02170		hypothetical protein
+FFINEN_02175		hypothetical protein
+FFINEN_02180		hypothetical protein
+FFINEN_02185	rplM	50S ribosomal protein L13
+FFINEN_02190		hypothetical protein
+FFINEN_02195		hypothetical protein
+FFINEN_02200		Arginine--tRNA ligase
+FFINEN_02205		Threonylcarbamoyl-AMP synthase
+FFINEN_02210		hypothetical protein
+FFINEN_02215		DUF2335 domain-containing protein
+FFINEN_02220		Aspartate--tRNA(Asp/Asn) ligase
+FFINEN_02225		Holo-[acyl-carrier-protein] synthase
+FFINEN_02230		hypothetical protein
+FFINEN_02235		D-alanyl-D-alanine dipeptidase
+FFINEN_02240		hypothetical protein
+FFINEN_02245		dCMP deaminase family protein
+FFINEN_02250		PLP-dependent aminotransferase family protein
+FFINEN_02255		hypothetical protein
+FFINEN_02265		hypothetical protein
+FFINEN_02270		GTPase Era
+FFINEN_02275		Ribonuclease 3
+FFINEN_02280		Signal peptidase I
+FFINEN_02285		Pyruvate, phosphate dikinase
+FFINEN_02290		Lipoyl synthase
+FFINEN_02295		Cell shape-determining protein MreC
+FFINEN_02300		Dihydroneopterin aldolase
+FFINEN_02305		TIGR02281 family clan AA aspartic protease
+FFINEN_02310		hypothetical protein
+FFINEN_02315		Bicarbonate transporter BicA
+FFINEN_02320		hypothetical protein
+FFINEN_02325		ProQ/FinO family protein
+FFINEN_02330		HU family DNA-binding protein
+FFINEN_02335		Cold-shock protein
+FFINEN_02340		ribonuclease D
+FFINEN_02345	ykgO	type B 50S ribosomal protein L36
+FFINEN_02350		UDP-3-O-acylglucosamine N-acyltransferase
+FFINEN_02355	fabZ	3-hydroxyacyl-ACP dehydratase FabZ
+FFINEN_02360		Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase
+FFINEN_02365		Radical SAM core domain-containing protein
+FFINEN_02370		hypothetical protein
+FFINEN_02375		hypothetical protein
+FFINEN_02380		hypothetical protein
+FFINEN_02385		UDP-N-acetylglucosamine 2-epimerase
+FFINEN_02390		hypothetical protein
+FFINEN_02395		4-hydroxybenzoate octaprenyltransferase
+FFINEN_02400		NADH-quinone oxidoreductase subunit C
+FFINEN_02405		O-methyltransferase
+FFINEN_02410		hypothetical protein
+FFINEN_02415		twin-arginine translocase TatA/TatE family subunit
+FFINEN_02420		glycine--tRNA ligase subunit alpha
+FFINEN_02425		hypothetical protein
+FFINEN_02430		Type IV secretion system protein
+FFINEN_02435		hypothetical protein
+FFINEN_02440		type IV secretion system protein
+FFINEN_02450		Multidrug export ATP-binding/permease protein SAV1866
+FFINEN_02455		MFS transporter
+FFINEN_02460		hypothetical protein
+FFINEN_02465		Ubiquinone biosynthesis O-methyltransferase
+FFINEN_02470		UPF0301 protein EIC27_01155
+FFINEN_02475		Oxygen-dependent coproporphyrinogen-III oxidase
+FFINEN_02480	trxB	thioredoxin-disulfide reductase
+FFINEN_02485		peroxiredoxin
+FFINEN_02490		hypothetical protein
+FFINEN_02495		hypothetical protein
+FFINEN_02505		tRNA N6-adenosine threonylcarbamoyltransferase
+FFINEN_02510	lepA	translation elongation factor 4
+FFINEN_02515		hypothetical protein
+FFINEN_02520		hypothetical protein
+FFINEN_02525		Periplasmic serine endoprotease DegP-like
+FFINEN_02530		ATP-binding cassette domain-containing protein
+FFINEN_02535		Deoxyribodipyrimidine photo-lyase
+FFINEN_02540	radA	DNA repair protein RadA
+FFINEN_02545		5-formyltetrahydrofolate cyclo-ligase
+FFINEN_02550		hypothetical protein
+FFINEN_02555	htpG	(pseudo) molecular chaperone HtpG
+FFINEN_02560		hypothetical protein
+FFINEN_02565		4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)
+FFINEN_02570		Tryptophan--tRNA ligase
+FFINEN_02575		hypothetical protein
+FFINEN_02580		hypothetical protein
+FFINEN_02585	mtaB	tRNA (N(6)-L-threonylcarbamoyladenosine(37)-C(2))-methylthiotransferase MtaB
+FFINEN_02590		Aconitate hydratase A
+FFINEN_02595		hypothetical protein
+FFINEN_02600		2-oxoglutarate dehydrogenase E1 component
+FFINEN_02605		Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+FFINEN_02610		hypothetical protein
+FFINEN_02615		ComE operon protein 3
+FFINEN_02620		30S ribosomal protein S16
+FFINEN_02625		tRNA (guanine-N(1)-)-methyltransferase
+FFINEN_02630	rplS	50S ribosomal protein L19
+FFINEN_02635		hypothetical protein
+FFINEN_02640		Tyrosine--tRNA ligase
+FFINEN_02645		hypothetical protein
+FFINEN_02650		17 kDa surface antigen
+FFINEN_02655		hypothetical protein
+FFINEN_02660		hypothetical protein
+FFINEN_02665		hypothetical protein
+FFINEN_02670		hypothetical protein
+FFINEN_02675		Holliday junction ATP-dependent DNA helicase RuvA
+FFINEN_02680		NADP-dependent malic enzyme
+FFINEN_02685		Fe/S biogenesis protein NfuA
+FFINEN_02690		hypothetical protein
+FFINEN_02695		hypothetical protein
+FFINEN_02700		excinuclease ABC subunit UvrA
+FFINEN_02705		COQ9 family protein
+FFINEN_02710		Protein translocase subunit SecD
+FFINEN_02715		Putative sensor histidine kinase NtrY-like
+FFINEN_02720		Efflux RND transporter permease subunit
+FFINEN_02725		hypothetical protein
+FFINEN_02730		hypothetical protein
+FFINEN_02735		hypothetical protein
+FFINEN_02740		hypothetical protein
+FFINEN_02745		Na+/alanine symporter
+FFINEN_02750		hypothetical protein
+FFINEN_02755		CvpA family protein
+FFINEN_02760		hypothetical protein
+FFINEN_02765		hypothetical protein
+FFINEN_02770		Adenylate kinase
+FFINEN_02775	secY	preprotein translocase subunit SecY
+FFINEN_02780		Serine-type D-Ala-D-Ala carboxypeptidase
+FFINEN_02785		hypothetical protein
+FFINEN_02790		GTPase Obg
+FFINEN_02795		hypothetical protein
+FFINEN_02800		hypothetical protein
+FFINEN_02805		hypothetical protein
+FFINEN_02810		hypothetical protein
+FFINEN_02815		hypothetical protein
+FFINEN_02820		hypothetical protein
+FFINEN_02825		LPS export ABC transporter periplasmic protein LptC
+FFINEN_02830		Putative phosphosugar isomerase
+FFINEN_02835		Outer membrane lipoprotein carrier protein LolA
+FFINEN_02840		Glutamate--tRNA ligase
+FFINEN_02845		hypothetical protein
+FFINEN_02850	ccoN	cytochrome-c oxidase, cbb3-type subunit I
+FFINEN_02855		Cytochrome-c oxidase, cbb3-type subunit II
+FFINEN_02860		Cbb3-type cytochrome c oxidase subunit 3
+FFINEN_02865		Cbb3-type cytochrome c oxidase subunit
+FFINEN_02870		heme ABC transporter permease CcmC
+FFINEN_02875		hypothetical protein
+FFINEN_02880		Thiamine-phosphate synthase
+FFINEN_02885		hypothetical protein
+FFINEN_02890		hypothetical protein
+FFINEN_02905		hypothetical protein
+FFINEN_02910		hypothetical protein
+FFINEN_02915		hypothetical protein
+FFINEN_02920		HU family DNA-binding protein
+FFINEN_02925		hypothetical protein
+FFINEN_02930		Dihydrofolate synthase/folylpolyglutamate synthase
+FFINEN_02935		2-dehydro-3-deoxyphosphooctonate aldolase
+FFINEN_02940	smpB	SsrA-binding protein SmpB
+FFINEN_02945		hypothetical protein
+FFINEN_02950		hypothetical protein
+FFINEN_02955		hypothetical protein
+FFINEN_02960		Cell division protein FtsA
+FFINEN_02965		FtsQ-type POTRA domain-containing protein
+FFINEN_02970		hypothetical protein
+FFINEN_02975		SEL1-like repeat protein
+FFINEN_02985		hypothetical protein
+FFINEN_02990		hypothetical protein
+FFINEN_02995		50S ribosomal protein L7/L12
+FFINEN_03000		hypothetical protein
+FFINEN_03005		hypothetical protein
+FFINEN_03010		2-phosphosulfolactate phosphatase
+FFINEN_03015		Putative ABC transporter ATP-binding protein
+FFINEN_03020		hypothetical protein
+FFINEN_03025		DUF2312 domain-containing protein
+FFINEN_03030		AI-2E family transporter
+FFINEN_03035		Zinc-finger domain-containing protein
+FFINEN_03040		Type III pantothenate kinase
+FFINEN_03045		NADH-quinone oxidoreductase subunit N
+FFINEN_03050		hypothetical protein
+FFINEN_03055		Parvulin-like PPIase
+FFINEN_03060		hypothetical protein
+FFINEN_03065		hypothetical protein
+FFINEN_03070		Ferrochelatase
+FFINEN_03075		Octanoyltransferase
+FFINEN_03080	folE	GTP cyclohydrolase I FolE
+FFINEN_03085		PKS-ER domain-containing protein
+FFINEN_03090		hypothetical protein
+FFINEN_03095		hypothetical protein
+FFINEN_03105	murA	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+FFINEN_03110		hypothetical protein
+FFINEN_03115		ATP synthase gamma chain
+FFINEN_03120	atpD	F0F1 ATP synthase subunit beta
+FFINEN_03125		ATP-synt-DE-N domain-containing protein
+FFINEN_03130		50S ribosomal protein L21
+FFINEN_03135	rpmA	50S ribosomal protein L27
+FFINEN_03140		Glutamine synthetase
+FFINEN_03145		4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+FFINEN_03150		Transcription termination factor Rho
+FFINEN_03160		cell division/cell wall cluster transcriptional repressor MraZ
+FFINEN_03165		hypothetical protein
+FFINEN_03170		ABC transporter permease
+FFINEN_03175		ATP-binding cassette domain-containing protein
+FFINEN_03180		hypothetical protein
+FFINEN_03185		Translation initiation factor IF-2
+FFINEN_03190		Methylated-DNA--protein-cysteine methyltransferase
+FFINEN_03195		Isoprenyl transferase
+FFINEN_03200		hypothetical protein
+FFINEN_03205		DNA recombination protein RmuC
+FFINEN_03210		hypothetical protein
+FFINEN_03215		Signal recognition particle protein
+FFINEN_03220		Outer membrane protein assembly factor BamE
+FFINEN_03225		Iron-sulfur cluster assembly accessory protein
+FFINEN_03230		Ribosome-binding factor A
+FFINEN_03235		Glutamyl-tRNA(Gln) amidotransferase subunit A
+FFINEN_03240		Thioredoxin peroxidase
+FFINEN_03245		hypothetical protein
+FFINEN_03250		NADH-quinone oxidoreductase subunit J
+FFINEN_03255	nuoK	NADH-quinone oxidoreductase subunit NuoK
+FFINEN_03260		hypothetical protein
+FFINEN_03265		Rne/Rng family ribonuclease
+FFINEN_03270		hypothetical protein
+FFINEN_03275		50S ribosomal protein L4
+FFINEN_03280		50S ribosomal protein L3
+FFINEN_03285		30S ribosomal protein S10
+FFINEN_03290	tuf	elongation factor Tu
+FFINEN_03300		hypothetical protein
+FFINEN_03305		hypothetical protein
+FFINEN_03310		flagellar hook-basal body complex protein
+FFINEN_03315		Flagellar basal-body rod protein FlgG
+FFINEN_03320		flagellar basal body P-ring formation chaperone FlgA
+FFINEN_03325		Flagellar L-ring protein
+FFINEN_03330		hypothetical protein
+FFINEN_03335		Iron-binding protein IscA
+FFINEN_03340		MFS transporter
+FFINEN_03345		hypothetical protein
+FFINEN_03350		hypothetical protein
+FFINEN_03355		hypothetical protein
+FFINEN_03360		hypothetical protein
+FFINEN_03365		hypothetical protein
+FFINEN_03370		hypothetical protein
+FFINEN_03375		Trigger factor
+FFINEN_03380	clpP	ATP-dependent Clp endopeptidase proteolytic subunit ClpP
+FFINEN_03385		DNA replication and repair protein RecF
+FFINEN_03390	dnaN	DNA polymerase III subunit beta
+FFINEN_03395		Ribosome hibernation promoting factor
+FFINEN_03400		type IV secretion system protein
+FFINEN_03405		hypothetical protein
+FFINEN_03410		hypothetical protein
+FFINEN_03415		Flagellar motor stator protein MotA
+FFINEN_03420		OmpA-like domain-containing protein
+FFINEN_03425		Type-4 uracil-DNA glycosylase
+FFINEN_03430	rpmH	50S ribosomal protein L34
+FFINEN_03435		Ribonuclease P protein component
+FFINEN_03440		Putative membrane protein insertion efficiency factor
+FFINEN_03445		Membrane protein insertase YidC
+FFINEN_03450		Lysine--tRNA ligase
+FFINEN_03460		YggS family pyridoxal phosphate-dependent enzyme
+FFINEN_03465		hypothetical protein
+FFINEN_03470		Dicarboxylate/amino acid:cation symporter
+FFINEN_03475		peptidoglycan editing factor PgeF
+FFINEN_03480		glutamate--cysteine ligase
+FFINEN_03485		hypothetical protein
+FFINEN_03490		hypothetical protein
+FFINEN_03495		hypothetical protein
+FFINEN_03500		hypothetical protein
+FFINEN_03505		Response regulator
+FFINEN_03510		hypothetical protein
+FFINEN_03515		50S ribosomal protein L31
+FFINEN_03520		hypothetical protein
+FFINEN_03525		Preprotein translocase subunit SecG
+FFINEN_03530		CTP synthase
+FFINEN_03535		hypothetical protein
+FFINEN_03540		hypothetical protein
+FFINEN_03545		ribonucleotide-diphosphate reductase subunit beta
+FFINEN_03550		Putative deoxyribonuclease YcfH
+FFINEN_03555		MBL fold metallo-hydrolase
+FFINEN_03560		hypothetical protein
+FFINEN_03565		Aspartate-semialdehyde dehydrogenase
+FFINEN_03570		hypothetical protein
+FFINEN_03575		Putrescine transport ATP-binding protein potA
+FFINEN_03580		ABC transporter permease subunit
+FFINEN_03585		ABC transporter permease subunit
+FFINEN_03590		Putrescine-binding periplasmic protein
+FFINEN_03595	rpmG	50S ribosomal protein L33
+FFINEN_03600		hypothetical protein
+FFINEN_03605		hypothetical protein
+FFINEN_03610		hypothetical protein
+FFINEN_03615		hypothetical protein
+FFINEN_03620		hypothetical protein
+FFINEN_03625		hypothetical protein
+FFINEN_03630		S41 family peptidase
+FFINEN_03635		Ribonuclease H
+FFINEN_03640		23S rRNA (Guanosine(2251)-2'-O)-methyltransferase RlmB
+FFINEN_03645		tRNA (Adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB
+FFINEN_03650		Isocitrate dehydrogenase [NADP]
+FFINEN_03655		hypothetical protein
+FFINEN_03660		UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+FFINEN_03665		(pseudo) type IV secretory system conjugative DNA transfer family protein
+FFINEN_03670		hypothetical protein
+FFINEN_03675		hypothetical protein
+FFINEN_03680		hypothetical protein
+FFINEN_03685		hypothetical protein
+FFINEN_03690	sucC	ADP-forming succinate--CoA ligase subunit beta
+FFINEN_03695	sucD	succinate--CoA ligase subunit alpha
+FFINEN_03700		hypothetical protein
+FFINEN_03705		2-polyprenylphenol 6-hydroxylase
+FFINEN_03710	rpsF	30S ribosomal protein S6
+FFINEN_03715	rpsR	30S ribosomal protein S18
+FFINEN_03720		hypothetical protein
+FFINEN_03725		Transport permease protein
+FFINEN_03730		hypothetical protein
+FFINEN_03735		Flagellum-specific ATP synthase
+FFINEN_03740		hypothetical protein
+FFINEN_03745		hypothetical protein
+FFINEN_03755		hypothetical protein
+FFINEN_03760		hypothetical protein
+FFINEN_03765		hypothetical protein
+FFINEN_03770		hypothetical protein
+FFINEN_03775		Superoxide dismutase
+FFINEN_03780		VirB8 domain-containing protein
+FFINEN_03785		hypothetical protein
+FFINEN_03790		Sulfite exporter TauE/SafE family protein
+FFINEN_03795		Phospho-N-acetylmuramoyl-pentapeptide-transferase
+FFINEN_03800		DNA polymerase III subunit delta
+FFINEN_03805		hypothetical protein
+FFINEN_03810		NirD/YgiW/YdeI family stress tolerance protein
+FFINEN_03815		GTP cyclohydrolase II
+FFINEN_03820		TlpA family protein disulfide reductase
+FFINEN_03825		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+FFINEN_03830		Pyridoxal 5'-phosphate synthase subunit PdxS
+FFINEN_03835		hypothetical protein
+FFINEN_03840		hypothetical protein
+FFINEN_03845		hypothetical protein
+FFINEN_03850	rpsL	30S ribosomal protein S12
+FFINEN_03855	rpsG	30S ribosomal protein S7
+FFINEN_03860	fusA	elongation factor G
+FFINEN_03865		hypothetical protein
+FFINEN_03870		Heme-transporting ATPase
+FFINEN_03875		hypothetical protein
+FFINEN_03880		tRNA (cytidine/uridine-2'-O-)-methyltransferase TrmJ
+FFINEN_03885		hypothetical protein
+FFINEN_03890		hypothetical protein
+FFINEN_03895		hypothetical protein
+FFINEN_03900		hypothetical protein
+FFINEN_03905		UDP-3-O-acyl-N-acetylglucosamine deacetylase
+FFINEN_03910		hypothetical protein
+FFINEN_03915		hypothetical protein
+FFINEN_03920		Sigma-70 family RNA polymerase sigma factor
+FFINEN_03925		Aminopeptidase P family protein
+FFINEN_03930		hypothetical protein
+FFINEN_03935		hypothetical protein
+FFINEN_03940		hypothetical protein
+FFINEN_03945		hypothetical protein
+FFINEN_03950		BON domain-containing protein
+FFINEN_03955		hypothetical protein
+FFINEN_03960		hypothetical protein
+FFINEN_03965		aspartate kinase
+FFINEN_03970		Phenylalanine--tRNA ligase alpha subunit
+FFINEN_03975		50S ribosomal protein L20
+FFINEN_03980		50S ribosomal protein L35
+FFINEN_03985		hypothetical protein
+FFINEN_03995		hypothetical protein
+FFINEN_04000		hypothetical protein
+FFINEN_04005		hypothetical protein
+FFINEN_04010		hypothetical protein
+FFINEN_04015		hypothetical protein
+FFINEN_04020		Cysteine desulfurase
+FFINEN_04025		alpha/beta hydrolase
+FFINEN_04030		hypothetical protein
+FFINEN_04035		ATP synthase subunit a
+FFINEN_04040		ATP synthase subunit c
+FFINEN_04045		YMF19 domain-containing protein
+FFINEN_04050		hypothetical protein
+FFINEN_04055		Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+FFINEN_04060		hypothetical protein
+FFINEN_04065		Diguanylate cyclase
+FFINEN_04070		hypothetical protein
+FFINEN_04075		LD-carboxypeptidase
+FFINEN_04080		response regulator transcription factor
+FFINEN_04085		Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C
+FFINEN_04090		hypothetical protein
+FFINEN_04095		hypothetical protein
+FFINEN_04100		hypothetical protein
+FFINEN_04105		Heme ABC exporter ATP-binding protein CcmA
+FFINEN_04110		ABC transporter domain-containing protein
+FFINEN_04115		tRNA pseudouridine synthase A
+FFINEN_04120		beta-1,3-glucanase family protein
+FFINEN_04125		Ribonuclease HII
+FFINEN_04130		Transketolase
+FFINEN_04135		putative lipid II flippase MurJ
+FFINEN_04140		Phosphoglucosamine mutase
+FFINEN_04145		Type II secretory protein ExeA
+FFINEN_04150		Transposase
+FFINEN_04155		hypothetical protein
+FFINEN_04160		Acyl-CoA desaturase
+FFINEN_04170		Propionyl-CoA carboxylase carboxyl transferase subunit
+FFINEN_04175	radC	DNA repair protein RadC
+FFINEN_04180		Peptidyl-tRNA hydrolase
+FFINEN_04185		hypothetical protein
+FFINEN_04190		hypothetical protein
+FFINEN_04195		hypothetical protein
+FFINEN_04200		Penicillin-binding protein 2
+FFINEN_04205		hypothetical protein
+FFINEN_04210		S-adenosyl-dependent methyltransferase activity on membrane-located substrates
+FFINEN_04220		hypothetical protein
+FFINEN_04225		Putative ribose-5-phosphate isomerase B
+FFINEN_04230		RDD family protein
+FFINEN_04235		hypothetical protein
+FFINEN_04240		hypothetical protein
+FFINEN_04245	nuoI	NADH-quinone oxidoreductase subunit NuoI
+FFINEN_04250		hypothetical protein
+FFINEN_04255		hypothetical protein
+FFINEN_04260		hypothetical protein
+FFINEN_04265		Preprotein translocase subunit SecE
+FFINEN_04270		Cytochrome b
+FFINEN_04275		carboxymuconolactone decarboxylase family protein
+FFINEN_04280		hypothetical protein
+FFINEN_04285		pyruvate dehydrogenase complex dihydrolipoamide acetyltransferase
+FFINEN_04290		hypothetical protein
+FFINEN_04295		Bac-DnaA domain-containing protein
+FFINEN_04300		hypothetical protein
+FFINEN_04305		hypothetical protein
+FFINEN_04310		CAI-1 autoinducer sensor kinase/phosphatase CqsS
+FFINEN_04315		hypothetical protein
+FFINEN_04320		hypothetical protein
+FFINEN_04325		hypothetical protein
+FFINEN_04330		3-oxoacyl-[acyl-carrier-protein] synthase 3
+FFINEN_04335		Tol-Pal system protein TolB
+FFINEN_04340		Iron-sulfur cluster carrier protein
+FFINEN_04345		tRNA uridine(34) hydroxylase
+FFINEN_04350		Inorganic pyrophosphatase
+FFINEN_04355		methyltransferase domain-containing protein
+FFINEN_04360		hypothetical protein
+FFINEN_04365		hypothetical protein
+FFINEN_04370		hypothetical protein
+FFINEN_04380		rod shape-determining protein
+FFINEN_04385		hypothetical protein
+FFINEN_04390		Lactamase-B domain-containing protein
+FFINEN_04395		hypothetical protein
+FFINEN_04400		Succinate dehydrogenase cytochrome b556 subunit
+FFINEN_04405		Succinate dehydrogenase hydrophobic membrane anchor subunit
+FFINEN_04410	sdhA	succinate dehydrogenase flavoprotein subunit
+FFINEN_04415		Flagellar M-ring protein
+FFINEN_04420		hypothetical protein
+FFINEN_04425		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+FFINEN_04430		hypothetical protein
+FFINEN_04435		hypothetical protein
+FFINEN_04440		LysM peptidoglycan-binding domain-containing protein
+FFINEN_04445		Methionyl-tRNA synthetase
+FFINEN_04450		hypothetical protein
+FFINEN_04455		hypothetical protein
+FFINEN_04460		Nucleoside:proton symporter
+FFINEN_04465		Uridine kinase
+FFINEN_04470		hypothetical protein
+FFINEN_04475		hypothetical protein
+FFINEN_04480		Chaperone protein DnaK
+FFINEN_04485		hypothetical protein
+FFINEN_04490		hypothetical protein
+FFINEN_04495		hypothetical protein
+FFINEN_04500		hypothetical protein
+FFINEN_04505		Bax inhibitor-1/YccA family protein
+FFINEN_04510		OmpH family outer membrane protein
+FFINEN_04515		hypothetical protein
+FFINEN_04520		hypothetical protein
+FFINEN_04525		GMP synthase [glutamine-hydrolyzing]
+FFINEN_04530		hypothetical protein
+FFINEN_04535		hypothetical protein
+FFINEN_04540		Zinc metalloprotease
+FFINEN_04545		hypothetical protein
+FFINEN_04550		hypothetical protein
+FFINEN_04555		hypothetical protein
+FFINEN_04560		Cell division protein ZapE
+FFINEN_04565	fabG	3-oxoacyl-[acyl-carrier-protein] reductase
+FFINEN_04570		hypothetical protein
+FFINEN_04575		VirB8 domain-containing protein
+FFINEN_04580		P-type conjugative transfer protein VirB9
+FFINEN_04585		hypothetical protein
+FFINEN_04590		Putative pterin-4-alpha-carbinolamine dehydratase
+FFINEN_04595		putative queuosine precursor transporter
+FFINEN_04600		hypothetical protein
+FFINEN_04605		hypothetical protein
+FFINEN_04610		hypothetical protein
+FFINEN_04615		hypothetical protein
+FFINEN_04620		hypothetical protein
+FFINEN_04625		NADH-quinone oxidoreductase subunit M
+FFINEN_04630		hypothetical protein
+FFINEN_04635		hypothetical protein
+FFINEN_04640		hypothetical protein
+FFINEN_04645		CCA tRNA nucleotidyltransferase
+FFINEN_04650		hypothetical protein
+FFINEN_04655		1-deoxy-D-xylulose 5-phosphate reductoisomerase
+FFINEN_04660		hypothetical protein
+FFINEN_04665		hypothetical protein
+FFINEN_04675		Enolase
+FFINEN_04680		hypothetical protein
+FFINEN_04685		Tetraacyldisaccharide 4'-kinase
+FFINEN_04690		hypothetical protein
+FFINEN_04695		hypothetical protein
+FFINEN_04700		hypothetical protein
+FFINEN_04705		Putative mRNA interferase YoeB
+FFINEN_04710		hypothetical protein
+FFINEN_04715		Recombination protein RecR
+FFINEN_04720		SDR family oxidoreductase
+FFINEN_04725		hypothetical protein
+FFINEN_04730		hypothetical protein
+FFINEN_04735		UDP-N-acetylenolpyruvoylglucosamine reductase
+FFINEN_04740		hypothetical protein
+FFINEN_04745		hypothetical protein
+FFINEN_04750		Cell division protein ZapA
+FFINEN_04755	rpsD	30S ribosomal protein S4
+FFINEN_04760		30S ribosomal protein S20
+FFINEN_04765		DUF721 domain-containing protein
+FFINEN_04770		hypothetical protein
+FFINEN_04775		hypothetical protein
+FFINEN_04780		DedA family protein
+FFINEN_04785		hypothetical protein
+FFINEN_04790		lipid A phosphoethanolamine transferase
+FFINEN_04795		flagellar basal body-associated FliL family protein
+FFINEN_04800		Pyruvate dehydrogenase E1 component subunit beta
+FFINEN_04805		Aminotransferase
+FFINEN_04810		Diaminopimelate epimerase
+FFINEN_04815		hypothetical protein
+FFINEN_04820		hypothetical protein
+FFINEN_04825	tnpB	IS66 family insertion sequence element accessory protein TnpB
+FFINEN_04830		hypothetical protein
+FFINEN_04835		(pseudo) MFS transporter
+FFINEN_04840		Amino acid ABC transporter substrate-binding protein
+FFINEN_04845		hypothetical protein
+FFINEN_04850		NADH-quinone oxidoreductase subunit NuoE
+FFINEN_04855		NADH-quinone oxidoreductase subunit D
+FFINEN_04860		hypothetical protein
+FFINEN_04865		hypothetical protein
+FFINEN_04870		hypothetical protein
+FFINEN_04875		hypothetical protein
+FFINEN_04880		hypothetical protein
+FFINEN_04885		hypothetical protein
+FFINEN_04890		hypothetical protein
+FFINEN_04895		2-pyrone-4,6-dicarboxylate hydrolase
+FFINEN_04905		hypothetical protein
+FFINEN_04910	groES	co-chaperone GroES
+FFINEN_04915		Ketosteroid isomerase
+FFINEN_04920		hypothetical protein
+FFINEN_04925		hypothetical protein
+FFINEN_04930		hypothetical protein
+FFINEN_04935		Porphobilinogen deaminase
+FFINEN_04940		hypothetical protein
+FFINEN_04945		hypothetical protein
+FFINEN_04950		Signal recognition particle-docking protein FtsY
+FFINEN_04955		hypothetical protein
+FFINEN_04960		(pseudo) IS6 family transposase
+FFINEN_04965		hypothetical protein
+FFINEN_04970		hypothetical protein
+FFINEN_04975		hypothetical protein
+FFINEN_04980		Flagellar P-ring protein
+FFINEN_04985		hypothetical protein
+FFINEN_04990		Aspartate/prephenate aminotransferase
+FFINEN_04995		hypothetical protein
+FFINEN_05000		putative transcriptional regulatory protein Saro_0419
+FFINEN_05005		(p)ppGpp synthase
+FFINEN_05010		hypothetical protein
+FFINEN_05015		Sodium:solute symporter family protein
+FFINEN_05020		hypothetical protein
+FFINEN_05025		hypothetical protein
+FFINEN_05030		Protoporphyrinogen IX oxidase
+FFINEN_05035		hypothetical protein
+FFINEN_05040		hypothetical protein
+FFINEN_05045		hypothetical protein
+FFINEN_05050		Nucleoid-associated protein I862_06155
+FFINEN_05055		DUF3646 domain-containing protein
+FFINEN_05060		hypothetical protein
+FFINEN_05065		hypothetical protein
+FFINEN_05070		Uridylate kinase
+FFINEN_05075		Ribosome-recycling factor
+FFINEN_05080		hypothetical protein
+FFINEN_05085		hypothetical protein
+FFINEN_05090		BolA family transcriptional regulator
+FFINEN_05095		hypothetical protein
+FFINEN_05100		hypothetical protein
+FFINEN_05105		hypothetical protein
+FFINEN_05110		hypothetical protein
+FFINEN_05115		Cell wall polymerase
+FFINEN_05120		hypothetical protein
+FFINEN_05125		ankyrin repeat domain-containing protein
+FFINEN_05130		hypothetical protein
+FFINEN_05135		S9 family peptidase
+FFINEN_05140		Flagellar basal-body rod protein FlgC
+FFINEN_05145		hypothetical protein
+FFINEN_05150	fsa	fructose-6-phosphate aldolase
+FFINEN_05155		IS256 family transposase
+FFINEN_05160		Thiaminase II
+FFINEN_05165		4-hydroxy-tetrahydrodipicolinate reductase
+FFINEN_05170		TraB/VirB10 family protein
+FFINEN_05175		hypothetical protein
+FFINEN_05180		60 kDa chaperonin
+FFINEN_05185		hypothetical protein
+FFINEN_05190		3-deoxy-D-manno-octulosonic acid transferase
+FFINEN_05195		hypothetical protein
+FFINEN_05200		hypothetical protein
+FFINEN_05205		hypothetical protein
+FFINEN_05210		hypothetical protein
+FFINEN_05215		TolC family protein
+FFINEN_05220		hypothetical protein
+FFINEN_05225		hypothetical protein
+FFINEN_05230		hypothetical protein
+FFINEN_05235		hypothetical protein
+FFINEN_05240		Glutaredoxin
+FFINEN_05245		BolA/IbaG family iron-sulfur metabolism protein
+FFINEN_05250		hypothetical protein
+FFINEN_05255		M48 family peptidase
+FFINEN_05260		hypothetical protein
+FFINEN_05265		hypothetical protein
+FFINEN_05270		hypothetical protein
+FFINEN_05275		hypothetical protein
+FFINEN_05290		hypothetical protein
+FFINEN_05295		hypothetical protein
+FFINEN_05300		30S ribosomal protein S2
+FFINEN_05305		50S ribosomal protein L24
+FFINEN_05310	rplN	50S ribosomal protein L14
+FFINEN_05315	rpsQ	30S ribosomal protein S17
+FFINEN_05320		50S ribosomal protein L29
+FFINEN_05325	rplP	50S ribosomal protein L16
+FFINEN_05330		hypothetical protein
+FFINEN_05345	dksA	RNA polymerase-binding protein DksA
+FFINEN_05350		CYTOSOL-AP domain-containing protein
+FFINEN_05355		hypothetical protein
+FFINEN_05360		conjugal transfer protein
+FFINEN_05365		pseudoazurin
+FFINEN_05370		hypothetical protein
+FFINEN_05375		MerR family transcriptional regulator
+FFINEN_05380	fabG	3-hydroxyacyl-CoA dehydrogenase
+FFINEN_05385		glycosyltransferase
+FFINEN_05390		hypothetical protein
+FFINEN_05395		Single-stranded DNA-binding protein
+FFINEN_05400		hypothetical protein
+FFINEN_05405	rplV	50S ribosomal protein L22
+FFINEN_05410	rpsS	30S ribosomal protein S19
+FFINEN_05415	rplB	50S ribosomal protein L2
+FFINEN_05420		tRNA pseudouridine synthase B
+FFINEN_05425		30S ribosomal protein S15
+FFINEN_05430		hypothetical protein
+FFINEN_05435		ribose-phosphate diphosphokinase
+FFINEN_05440		hypothetical protein
+FFINEN_05445		hypothetical protein
+FFINEN_05450		FAD assembly factor SdhE
+FFINEN_05455		DUF3365 domain-containing protein
+FFINEN_05460		Polyamine aminopropyltransferase
+FFINEN_05465		4-hydroxy-3-methylbut-2-enyl diphosphate reductase 1
+FFINEN_05470		hypothetical protein
+FFINEN_05475		ribosome silencing factor
+FFINEN_05480		hypothetical protein
+FFINEN_05485		hypothetical protein
+FFINEN_05490		Putative membrane protein
+FFINEN_05495		hypothetical protein
+FFINEN_05500		IS256 family transposase
+FFINEN_05505		hypothetical protein
+FFINEN_05510		AAA domain-containing protein
+FFINEN_05515		Inositol-1-monophosphatase
+FFINEN_05520		tRNA-specific adenosine deaminase
+FFINEN_05525		hypothetical protein
+FFINEN_05530		hypothetical protein
+FFINEN_05535		hypothetical protein
+FFINEN_05550		DUF2628 domain-containing protein
+FFINEN_05555		hypothetical protein
+FFINEN_05560		hypothetical protein
+FFINEN_05565		D-alanine--D-alanine ligase
+FFINEN_05570		hypothetical protein
+FFINEN_05575		Gamma carbonic anhydrase family protein
+FFINEN_05580		hypothetical protein
+FFINEN_05585		Protein-export membrane protein SecF
+FFINEN_05590		hypothetical protein
+FFINEN_05595		IS110 family transposase
+FFINEN_05600		hypothetical protein
+FFINEN_05605		hypothetical protein
+FFINEN_05610		hypothetical protein
+FFINEN_05615		hypothetical protein
+FFINEN_05620		tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+FFINEN_05625		(pseudo) ABC transporter substrate-binding protein
+FFINEN_05630		hypothetical protein
+FFINEN_05635		(pseudo) VacJ family lipoprotein
+FFINEN_05640		Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+FFINEN_05650		Complex I NDUFA9 subunit family protein
+FFINEN_05655		hypothetical protein
+FFINEN_05660		Ribosome maturation factor RimP
+FFINEN_05665		hypothetical protein
+FFINEN_05670		Flagellar motor switch protein FliN
+FFINEN_05675		hypothetical protein
+FFINEN_05680		Glutamate--tRNA ligase
+JBEABI_00005		hypothetical protein
+JBEABI_00010		CarD family transcriptional regulator
+JBEABI_00015		PKS-ER domain-containing protein
+JBEABI_00020		Endonuclease III
+JBEABI_00025		Fumarate hydratase class II
+JBEABI_00030		Quaternary ammonium compound-resistance protein SugE
+JBEABI_00035		DNA gyrase subunit B
+JBEABI_00040		MFS transporter
+JBEABI_00045		glycoside hydrolase TIM-barrel-like domain-containing protein
+JBEABI_00050		M48 family peptidase
+JBEABI_00055		Deoxyribodipyrimidine photo-lyase
+JBEABI_00060		ATP-binding cassette domain-containing protein
+JBEABI_00065		Periplasmic serine endoprotease DegP-like
+JBEABI_00070		hypothetical protein
+JBEABI_00075		16S rRNA (Guanine(966)-N(2))-methyltransferase RsmD
+JBEABI_00080		Endolytic murein transglycosylase
+JBEABI_00085		Ribonuclease HII
+JBEABI_00090		Transketolase
+JBEABI_00095		ribose-phosphate diphosphokinase
+JBEABI_00100		hypothetical protein
+JBEABI_00105		Phosphoribosyl transferase domain
+JBEABI_00110		OMPdecase domain-containing protein
+JBEABI_00115		hypothetical protein
+JBEABI_00120		hypothetical protein
+JBEABI_00125		hypothetical protein
+JBEABI_00130		hypothetical protein
+JBEABI_00135		Iron-binding protein IscA
+JBEABI_00140		UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+JBEABI_00145		RNA polymerase sigma-54 factor
+JBEABI_00150		tRNA(Ile)-lysidine synthase
+JBEABI_00155		hypothetical protein
+JBEABI_00160		DUF2497 domain-containing protein
+JBEABI_00165		MFS transporter
+JBEABI_00170		Chromosomal replication initiator protein DnaA
+JBEABI_00175		Histidine kinase
+JBEABI_00180		ATP-binding cassette domain-containing protein
+JBEABI_00185		ABC transporter permease
+JBEABI_00190		hypothetical protein
+JBEABI_00195		cell division/cell wall cluster transcriptional repressor MraZ
+JBEABI_00200		Ribosomal RNA small subunit methyltransferase H
+JBEABI_00205		hypothetical protein
+JBEABI_00210		Penicillin-binding protein 2
+JBEABI_00215		hypothetical protein
+JBEABI_00220		Porin
+JBEABI_00225		Transporter
+JBEABI_00230		MFS transporter
+JBEABI_00235		Phenylalanine--tRNA ligase beta subunit
+JBEABI_00240		ATP-dependent Clp protease ATP-binding subunit ClpX
+JBEABI_00245	clpP	ATP-dependent Clp endopeptidase proteolytic subunit ClpP
+JBEABI_00250		Trigger factor
+JBEABI_00255		5-aminolevulinate synthase
+JBEABI_00260		hypothetical protein
+JBEABI_00265		Flagellar motor switch protein FliN
+JBEABI_00270		hypothetical protein
+JBEABI_00275		Flagellar motor switch protein FliG
+JBEABI_00280		hypothetical protein
+JBEABI_00285		Flagellar M-ring protein
+JBEABI_00290		DUF374 domain-containing protein
+JBEABI_00295		3-deoxy-D-manno-octulosonic acid transferase
+JBEABI_00300		hypothetical protein
+JBEABI_00315		DUF2628 domain-containing protein
+JBEABI_00320		hypothetical protein
+JBEABI_00325		hypothetical protein
+JBEABI_00330		Thioredoxin peroxidase
+JBEABI_00335		Glutamyl-tRNA(Gln) amidotransferase subunit A
+JBEABI_00340		Ribosome-binding factor A
+JBEABI_00345		Iron-sulfur cluster assembly accessory protein
+JBEABI_00350		hypothetical protein
+JBEABI_00355		hypothetical protein
+JBEABI_00360		Aconitate hydratase A
+JBEABI_00365		Flagellar biosynthesis protein FlhA
+JBEABI_00370		Peptide deformylase
+JBEABI_00375		hypothetical protein
+JBEABI_00380		hypothetical protein
+JBEABI_00385		Cell division protein ZapA
+JBEABI_00390	rpsD	30S ribosomal protein S4
+JBEABI_00395		30S ribosomal protein S20
+JBEABI_00400		DUF721 domain-containing protein
+JBEABI_00405		DsbA family protein
+JBEABI_00410		hypothetical protein
+JBEABI_00415		DNA replication and repair protein RecF
+JBEABI_00420	dnaN	DNA polymerase III subunit beta
+JBEABI_00425		Ribosome hibernation promoting factor
+JBEABI_00430		S9 family peptidase
+JBEABI_00435		Methionyl-tRNA formyltransferase
+JBEABI_00440		hypothetical protein
+JBEABI_00445		hypothetical protein
+JBEABI_00450		LysM peptidoglycan-binding domain-containing protein
+JBEABI_00455		Methionine--tRNA ligase
+JBEABI_00460		FAD assembly factor SdhE
+JBEABI_00465		Lipid-A-disaccharide synthase
+JBEABI_00470		hypothetical protein
+JBEABI_00475		Bax inhibitor-1/YccA family protein
+JBEABI_00480		DNA gyrase subunit A
+JBEABI_00485		Tol-Pal system protein TolB
+JBEABI_00490		3-oxoacyl-[acyl-carrier-protein] synthase 3
+JBEABI_00495		Phosphate acyltransferase
+JBEABI_00500		hypothetical protein
+JBEABI_00505		hypothetical protein
+JBEABI_00510	nuoI	NADH-quinone oxidoreductase subunit NuoI
+JBEABI_00515		Release factor glutamine methyltransferase
+JBEABI_00520		Riboflavin biosynthesis protein RibD
+JBEABI_00525		Dicarboxylate/amino acid:cation symporter
+JBEABI_00530		hypothetical protein
+JBEABI_00535		hypothetical protein
+JBEABI_00540		hypothetical protein
+JBEABI_00545		HAMP domain-containing histidine kinase
+JBEABI_00550		Polyprenyl synthetase family protein
+JBEABI_00555		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+JBEABI_00560		Single-stranded-DNA-specific exonuclease RecJ
+JBEABI_00565		tRNA pseudouridine synthase A
+JBEABI_00570		hypothetical protein
+JBEABI_00575		beta-1,3-glucanase family protein
+JBEABI_00580		PNPLA domain-containing protein
+JBEABI_00585		hypothetical protein
+JBEABI_00590		hypothetical protein
+JBEABI_00595		hypothetical protein
+JBEABI_00600		hypothetical protein
+JBEABI_00605		hypothetical protein
+JBEABI_00610		Putative mRNA interferase YoeB
+JBEABI_00615		hypothetical protein
+JBEABI_00620		hypothetical protein
+JBEABI_00625		hypothetical protein
+JBEABI_00630		Porphobilinogen deaminase
+JBEABI_00635		Ribonuclease J
+JBEABI_00640		rod shape-determining protein
+JBEABI_00650		OstA-like-N domain-containing protein
+JBEABI_00655	lptB	LPS export ABC transporter ATP-binding protein
+JBEABI_00660		hypothetical protein
+JBEABI_00665		hypothetical protein
+JBEABI_00670		DNA polymerase III subunit gamma/tau
+JBEABI_00675		DUF3646 domain-containing protein
+JBEABI_00680		Nucleoid-associated protein I862_06155
+JBEABI_00685		putative GTP-binding protein EngB
+JBEABI_00690		transcriptional repressor
+JBEABI_00695		hypothetical protein
+JBEABI_00700		Cadmium-translocating P-type ATPase
+JBEABI_00705		hypothetical protein
+JBEABI_00710		hypothetical protein
+JBEABI_00715		hypothetical protein
+JBEABI_00720		hypothetical protein
+JBEABI_00725		Exodeoxyribonuclease III
+JBEABI_00735		hypothetical protein
+JBEABI_00740		redoxin domain-containing protein
+JBEABI_00745		Octanoyltransferase
+JBEABI_00750		Ferrochelatase
+JBEABI_00755		hypothetical protein
+JBEABI_00760		3-deoxy-manno-octulosonate cytidylyltransferase
+JBEABI_00765		1-acyl-sn-glycerol-3-phosphate acyltransferase
+JBEABI_00770		hypothetical protein
+JBEABI_00775		Leucine--tRNA ligase
+JBEABI_00780		hypothetical protein
+JBEABI_00785		tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+JBEABI_00790		hypothetical protein
+JBEABI_00795		Nucleoside:proton symporter
+JBEABI_00800		Uridine kinase
+JBEABI_00805	udk	(pseudo) uridine kinase
+JBEABI_00810		hypothetical protein
+JBEABI_00815		hypothetical protein
+JBEABI_00820		ribonucleotide-diphosphate reductase subunit beta
+JBEABI_00825		Putative deoxyribonuclease YcfH
+JBEABI_00830		MBL fold metallo-hydrolase
+JBEABI_00835		hypothetical protein
+JBEABI_00840		hypothetical protein
+JBEABI_00845		hypothetical protein
+JBEABI_00850		2-polyprenylphenol 6-hydroxylase
+JBEABI_00855	rpsF	30S ribosomal protein S6
+JBEABI_00860	rpsR	30S ribosomal protein S18
+JBEABI_00865		50S ribosomal protein L9
+JBEABI_00870		DNA-directed RNA polymerase subunit omega
+JBEABI_00875		Cytochrome c maturation protein CcmE
+JBEABI_00880		Phosphatase PAP2 family protein
+JBEABI_00885		rRNA maturation RNase YbeY
+JBEABI_00890		glycosyltransferase
+JBEABI_00895		hypothetical protein
+JBEABI_00900	rplS	50S ribosomal protein L19
+JBEABI_00905		tRNA (guanine-N(1)-)-methyltransferase
+JBEABI_00910		30S ribosomal protein S16
+JBEABI_00915		ComE operon protein 3
+JBEABI_00920		hypothetical protein
+JBEABI_00925		MFS transporter
+JBEABI_00930		Type-4 uracil-DNA glycosylase
+JBEABI_00935	rpmH	50S ribosomal protein L34
+JBEABI_00940		Ribonuclease P protein component
+JBEABI_00945		Putative membrane protein insertion efficiency factor
+JBEABI_00950		Membrane protein insertase YidC
+JBEABI_00955		tRNA-specific 2-thiouridylase MnmA
+JBEABI_00960		Tetraacyldisaccharide 4'-kinase
+JBEABI_00965	nuoH	NADH-quinone oxidoreductase subunit NuoH
+JBEABI_00970		Threonylcarbamoyl-AMP synthase
+JBEABI_00975		hypothetical protein
+JBEABI_00980		DUF2335 domain-containing protein
+JBEABI_00985		Aspartate--tRNA(Asp/Asn) ligase
+JBEABI_00990		Holo-[acyl-carrier-protein] synthase
+JBEABI_00995		hypothetical protein
+JBEABI_01000		D-alanyl-D-alanine dipeptidase
+JBEABI_01005		hypothetical protein
+JBEABI_01010		Porin family protein
+JBEABI_01015		EVE domain-containing protein
+JBEABI_01020		HK97 family phage prohead protease
+JBEABI_01030		HK97 family phage major capsid protein
+JBEABI_01035		hypothetical protein
+JBEABI_01040		hypothetical protein
+JBEABI_01045		hypothetical protein
+JBEABI_01050		hypothetical protein
+JBEABI_01055		hypothetical protein
+JBEABI_01060		hypothetical protein
+JBEABI_01065		hypothetical protein
+JBEABI_01070		MiaB-like tRNA modifying enzyme
+JBEABI_01075		hypothetical protein
+JBEABI_01080		hypothetical protein
+JBEABI_01085		hypothetical protein
+JBEABI_01090		tRNA (cytidine/uridine-2'-O-)-methyltransferase TrmJ
+JBEABI_01095		hypothetical protein
+JBEABI_01100		Cell wall polymerase
+JBEABI_01105	prfA	peptide chain release factor 1
+JBEABI_01110		XRE family transcriptional regulator
+JBEABI_01120		Putative bifunctional glutamate synthase subunit beta/2-polyprenylphenol hydroxylase
+JBEABI_01125		Flagellar P-ring protein
+JBEABI_01130		hypothetical protein
+JBEABI_01135		hypothetical protein
+JBEABI_01140		hypothetical protein
+JBEABI_01145		hypothetical protein
+JBEABI_01150		hypothetical protein
+JBEABI_01155		BON domain-containing protein
+JBEABI_01160		hypothetical protein
+JBEABI_01165		hypothetical protein
+JBEABI_01170		aspartate kinase
+JBEABI_01175		Diaminopimelate decarboxylase
+JBEABI_01180		LD-carboxypeptidase
+JBEABI_01185		Response regulator transcription factor
+JBEABI_01190		Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C
+JBEABI_01195		Putative pre-16S rRNA nuclease
+JBEABI_01200		M48 family metalloprotease
+JBEABI_01205		Translational regulator CsrA
+JBEABI_01210		hypothetical protein
+JBEABI_01215		Flagellar biosynthetic protein FlhB
+JBEABI_01220		N-acetyltransferase
+JBEABI_01225		hypothetical protein
+JBEABI_01230		Cell division protein FtsZ
+JBEABI_01235		hypothetical protein
+JBEABI_01240		Bac-DnaA domain-containing protein
+JBEABI_01245		hypothetical protein
+JBEABI_01250		hypothetical protein
+JBEABI_01255		hypothetical protein
+JBEABI_01260		Translation initiation factor IF-2
+JBEABI_01265		Methylated-DNA--protein-cysteine methyltransferase
+JBEABI_01270		hypothetical protein
+JBEABI_01275	fusA	elongation factor G
+JBEABI_01280	rpsG	30S ribosomal protein S7
+JBEABI_01285	rpsL	30S ribosomal protein S12
+JBEABI_01290		Sodium:solute symporter family protein
+JBEABI_01295		hypothetical protein
+JBEABI_01300		hypothetical protein
+JBEABI_01305		Tetratricopeptide repeat protein
+JBEABI_01310		DedA family protein
+JBEABI_01315		Putative response regulator NtrX-like
+JBEABI_01320		outer membrane beta-barrel protein
+JBEABI_01325		hypothetical protein
+JBEABI_01330		ATP-dependent DNA helicase RecG
+JBEABI_01335	uvrB	excinuclease ABC subunit UvrB
+JBEABI_01340		hypothetical protein
+JBEABI_01345		hypothetical protein
+JBEABI_01350		2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase
+JBEABI_01355		aldehyde dehydrogenase family protein
+JBEABI_01360		CDP-diacylglycerol--serine O-phosphatidyltransferase
+JBEABI_01365		Phosphatidylserine decarboxylase proenzyme
+JBEABI_01370		MFS transporter
+JBEABI_01375		Flagellar biosynthetic protein FliQ
+JBEABI_01380	secB	protein-export chaperone SecB
+JBEABI_01385		Tim44 domain-containing protein
+JBEABI_01390		Peptidoglycan lytic exotransglycosylase
+JBEABI_01395		Delta-aminolevulinic acid dehydratase
+JBEABI_01400		NADH-quinone oxidoreductase subunit B
+JBEABI_01405		NADH-quinone oxidoreductase subunit A
+JBEABI_01410		2Fe-2S iron-sulfur cluster-binding protein
+JBEABI_01415		preprotein translocase subunit YajC
+JBEABI_01420		Disulfide bond formation protein B
+JBEABI_01425		hypothetical protein
+JBEABI_01430		Dihydrolipoyl dehydrogenase
+JBEABI_01435		pyruvate dehydrogenase complex dihydrolipoamide acetyltransferase
+JBEABI_01440		hypothetical protein
+JBEABI_01445		hypothetical protein
+JBEABI_01450		hypothetical protein
+JBEABI_01455		hypothetical protein
+JBEABI_01460	sucC	ADP-forming succinate--CoA ligase subunit beta
+JBEABI_01465	sucD	succinate--CoA ligase subunit alpha
+JBEABI_01470		Iron-sulfur cluster carrier protein
+JBEABI_01475		tRNA uridine(34) hydroxylase
+JBEABI_01480		Inorganic pyrophosphatase
+JBEABI_01485		MFS transporter
+JBEABI_01490	dnaK	molecular chaperone DnaK
+JBEABI_01495		TerC/Alx family metal homeostasis membrane protein
+JBEABI_01500		Elongation factor P
+JBEABI_01505		BolA/IbaG family iron-sulfur metabolism protein
+JBEABI_01510		Glutaredoxin
+JBEABI_01515		hypothetical protein
+JBEABI_01520		(pseudo) Type IV secretion system protein VirD4
+JBEABI_01525		Type IV secretory system conjugative DNA transfer family protein
+JBEABI_01530		UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+JBEABI_01535		hypothetical protein
+JBEABI_01540		Membrane fusion protein (MFP) family protein
+JBEABI_01545		Type I secretion system permease/ATPase
+JBEABI_01550		Exodeoxyribonuclease 7 small subunit
+JBEABI_01555		hypothetical protein
+JBEABI_01560		histidine--tRNA ligase
+JBEABI_01565		ATPase
+JBEABI_01570		EAL domain-containing protein
+JBEABI_01575		succinate dehydrogenase iron-sulfur subunit
+JBEABI_01580		Outer membrane protein assembly factor BamD
+JBEABI_01585		UDP-N-acetylmuramate--L-alanine ligase
+JBEABI_01590		Pyruvate dehydrogenase E1 component subunit alpha
+JBEABI_01595		Flavodoxin family protein
+JBEABI_01600		pyruvate dehydrogenase complex E1 component subunit beta
+JBEABI_01605		flagellar basal body-associated FliL family protein
+JBEABI_01610		flagellar motor switch protein FliM
+JBEABI_01615		hypothetical protein
+JBEABI_01620		hypothetical protein
+JBEABI_01625		Acyl-CoA desaturase
+JBEABI_01635		hypothetical protein
+JBEABI_01640		AAA family ATPase
+JBEABI_01645		Lipoprotein signal peptidase
+JBEABI_01650		Succinate dehydrogenase cytochrome b556 subunit
+JBEABI_01655		Succinate dehydrogenase hydrophobic membrane anchor subunit
+JBEABI_01660	sdhA	succinate dehydrogenase flavoprotein subunit
+JBEABI_01665		hypothetical protein
+JBEABI_01670		hypothetical protein
+JBEABI_01685		4-hydroxy-3-methylbut-2-enyl diphosphate reductase 1
+JBEABI_01690		6-carboxy-5,6,7,8-tetrahydropterin synthase
+JBEABI_01695		Aldolase-II domain-containing protein
+JBEABI_01700		Cytochrome c-like protein
+JBEABI_01705		Ubiquinone biosynthesis O-methyltransferase
+JBEABI_01710		UPF0301 protein EIC27_01155
+JBEABI_01715		Oxygen-dependent coproporphyrinogen-III oxidase
+JBEABI_01720	trxB	thioredoxin-disulfide reductase
+JBEABI_01725		peroxiredoxin
+JBEABI_01730		hypothetical protein
+JBEABI_01735		heme ABC transporter permease CcmC
+JBEABI_01740		Cbb3-type cytochrome c oxidase subunit
+JBEABI_01745		Cbb3-type cytochrome c oxidase subunit 3
+JBEABI_01750		Cytochrome-c oxidase, cbb3-type subunit II
+JBEABI_01755	ccoN	cytochrome-c oxidase, cbb3-type subunit I
+JBEABI_01760		hypothetical protein
+JBEABI_01765		UPF0102 protein EIC27_00570
+JBEABI_01770		NADPH-dependent 7-cyano-7-deazaguanine reductase QueF
+JBEABI_01775		7-cyano-7-deazaguanine synthase
+JBEABI_01780		Phosphoglycerate kinase
+JBEABI_01785		Glyceraldehyde-3-phosphate dehydrogenase
+JBEABI_01790		DNA helicase
+JBEABI_01800	murA	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+JBEABI_01805		Phosphomannomutase/phosphoglucomutase
+JBEABI_01810		BolA family transcriptional regulator
+JBEABI_01815		FAD-binding-3 domain-containing protein
+JBEABI_01820		Efflux RND transporter permease subunit
+JBEABI_01825		hypothetical protein
+JBEABI_01830		hypothetical protein
+JBEABI_01835		hypothetical protein
+JBEABI_01840		Glutaminase
+JBEABI_01845		Pyridoxal 5'-phosphate synthase subunit PdxS
+JBEABI_01850		Penicillin-binding protein activator
+JBEABI_01855		Peptidyl-tRNA hydrolase
+JBEABI_01860	radC	DNA repair protein RadC
+JBEABI_01865		Acyl-CoA carboxylase subunit beta
+JBEABI_01870		Arginine--tRNA ligase
+JBEABI_01875		hypothetical protein
+JBEABI_01880		hypothetical protein
+JBEABI_01885	rplM	50S ribosomal protein L13
+JBEABI_01890		hypothetical protein
+JBEABI_01895		MFS transporter
+JBEABI_01900		CCA tRNA nucleotidyltransferase
+JBEABI_01905		hypothetical protein
+JBEABI_01910		peptidoglycan editing factor PgeF
+JBEABI_01915		glutamate--cysteine ligase
+JBEABI_01920		hypothetical protein
+JBEABI_01925		hypothetical protein
+JBEABI_01930		D-alanyl-D-alanine carboxypeptidase
+JBEABI_01935		Flagellar L-ring protein
+JBEABI_01940		flagellar basal body P-ring formation chaperone FlgA
+JBEABI_01945		Flagellar basal-body rod protein FlgG
+JBEABI_01950		flagellar hook-basal body complex protein
+JBEABI_01955		Exodeoxyribonuclease 7 large subunit
+JBEABI_01960		hypothetical protein
+JBEABI_01965		Dephospho-CoA kinase
+JBEABI_01970		DNA polymerase III subunit epsilon
+JBEABI_01980		hypothetical protein
+JBEABI_01985		Putative glutamine transport system permease protein GlnP
+JBEABI_01990		Amino acid ABC transporter ATP-binding protein
+JBEABI_01995		hypothetical protein
+JBEABI_02000		Type II toxin-antitoxin system RatA family toxin
+JBEABI_02005		Dihydropteroate synthase
+JBEABI_02010		Glycine--tRNA ligase beta subunit
+JBEABI_02015		DASS family sodium-coupled anion symporter
+JBEABI_02020		isoleucine--tRNA ligase
+JBEABI_02025		Glutamate decarboxylase
+JBEABI_02030		ATP-dependent chaperone ClpB
+JBEABI_02035		Bifunctional ligase/repressor BirA
+JBEABI_02040		hypothetical protein
+JBEABI_02045		transcription-repair coupling factor
+JBEABI_02050		MFS transporter
+JBEABI_02055		Cell wall polymerase
+JBEABI_02060		Phospholipase
+JBEABI_02065		hypothetical protein
+JBEABI_02070		Lysine--tRNA ligase
+JBEABI_02080		YggS family pyridoxal phosphate-dependent enzyme
+JBEABI_02085	hslU	ATP-dependent protease ATPase subunit HslU
+JBEABI_02090	infC	translation initiation factor IF-3
+JBEABI_02095	thrS	threonine--tRNA ligase
+JBEABI_02100		Dicarboxylate/amino acid:cation symporter
+JBEABI_02105		PNPLA domain-containing protein
+JBEABI_02110		PNPLA domain-containing protein
+JBEABI_02115		Gamma carbonic anhydrase family protein
+JBEABI_02120		type I DNA topoisomerase
+JBEABI_02125		Tyrosine recombinase XerC
+JBEABI_02130		hypothetical protein
+JBEABI_02135		30S ribosomal protein S2
+JBEABI_02140		Elongation factor Ts
+JBEABI_02145	pyrH	UMP kinase
+JBEABI_02150		Ribosome-recycling factor
+JBEABI_02155		hypothetical protein
+JBEABI_02160		hypothetical protein
+JBEABI_02165		hypothetical protein
+JBEABI_02170		hypothetical protein
+JBEABI_02175		hypothetical protein
+JBEABI_02180		Pseudouridine synthase
+JBEABI_02185	nrdR	transcriptional regulator NrdR
+JBEABI_02190		UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+JBEABI_02195		hypothetical protein
+JBEABI_02200		Putative zinc protease
+JBEABI_02205		PKS-ER domain-containing protein
+JBEABI_02210	folE	GTP cyclohydrolase I FolE
+JBEABI_02215		hypothetical protein
+JBEABI_02220		Glutamate dehydrogenase
+JBEABI_02225		hypothetical protein
+JBEABI_02230		HU family DNA-binding protein
+JBEABI_02235		Single-stranded DNA-binding protein
+JBEABI_02240		hypothetical protein
+JBEABI_02250		S-adenosylmethionine uptake transporter
+JBEABI_02255		23S rRNA (Guanosine(2251)-2'-O)-methyltransferase RlmB
+JBEABI_02260		Ribonuclease H
+JBEABI_02265		S41 family peptidase
+JBEABI_02270		hypothetical protein
+JBEABI_02275		multidrug effflux MFS transporter
+JBEABI_02280		Aspartate/prephenate aminotransferase
+JBEABI_02285		LysE type translocator family protein
+JBEABI_02290		hypothetical protein
+JBEABI_02300		Deoxyguanosinetriphosphate triphosphohydrolase-like protein
+JBEABI_02305		Magnesium cobalt transport protein
+JBEABI_02310		Dephospho-CoA kinase/protein folding accessory domain-containing protein
+JBEABI_02315		glycine--tRNA ligase subunit alpha
+JBEABI_02320		twin-arginine translocase TatA/TatE family subunit
+JBEABI_02325		hypothetical protein
+JBEABI_02330		O-methyltransferase
+JBEABI_02335		NADH-quinone oxidoreductase subunit C
+JBEABI_02340		4-hydroxybenzoate octaprenyltransferase
+JBEABI_02345		Flagellar hook-basal body complex protein FliE
+JBEABI_02350		Flagellar basal-body rod protein FlgC
+JBEABI_02355		hypothetical protein
+JBEABI_02360	fsa	fructose-6-phosphate aldolase
+JBEABI_02365		Riboflavin synthase
+JBEABI_02370		YCII domain-containing protein
+JBEABI_02375	rpsU	30S ribosomal protein S21
+JBEABI_02380		Sodium:solute symporter family protein
+JBEABI_02385		hypothetical protein
+JBEABI_02390		DUF2460 domain-containing protein
+JBEABI_02395		hypothetical protein
+JBEABI_02400		LptF/LptG family permease
+JBEABI_02405		putative cytosol aminopeptidase
+JBEABI_02410	dksA	RNA polymerase-binding protein DksA
+JBEABI_02425		hypothetical protein
+JBEABI_02430		hypothetical protein
+JBEABI_02435	cydB	cytochrome d ubiquinol oxidase subunit II
+JBEABI_02440		Cytochrome bd quinol oxidase subunit 1 apoprotein
+JBEABI_02445		Signal recognition particle-docking protein FtsY
+JBEABI_02450		PNPLA domain-containing protein
+JBEABI_02455		Serine hydroxymethyltransferase
+JBEABI_02465		hypothetical protein
+JBEABI_02470		PLP-dependent aminotransferase family protein
+JBEABI_02475		dCMP deaminase family protein
+JBEABI_02480		PhzF family phenazine biosynthesis protein
+JBEABI_02485		Response regulator
+JBEABI_02495		Complex I NDUFA9 subunit family protein
+JBEABI_02500		Superoxide dismutase
+JBEABI_02505		VirB8 domain-containing protein
+JBEABI_02510		hypothetical protein
+JBEABI_02515		TrbI/VirB10 family protein
+JBEABI_02520	virB11	P-type DNA transfer ATPase VirB11
+JBEABI_02525		hypothetical protein
+JBEABI_02530		Ketosteroid isomerase
+JBEABI_02535	groES	co-chaperone GroES
+JBEABI_02540	groL	chaperonin GroEL
+JBEABI_02545		Protein translocase subunit SecA
+JBEABI_02550		HlyD family secretion protein
+JBEABI_02555		Multidrug export protein EmrB
+JBEABI_02560		hypothetical protein
+JBEABI_02565		hypothetical protein
+JBEABI_02570		hypothetical protein
+JBEABI_02575		ABC transporter family protein
+JBEABI_02580		MFS transporter
+JBEABI_02585	prfB	peptide chain release factor 2
+JBEABI_02590		UDP-N-acetylenolpyruvoylglucosamine reductase
+JBEABI_02595		hypothetical protein
+JBEABI_02600		ABC transporter ATP-binding protein
+JBEABI_02605		MFS transporter
+JBEABI_02610		hypothetical protein
+JBEABI_02615		hypothetical protein
+JBEABI_02620		Cysteine desulfurase
+JBEABI_02625		alpha/beta hydrolase
+JBEABI_02630	tgt	tRNA guanosine(34) transglycosylase Tgt
+JBEABI_02635		ATP synthase subunit a
+JBEABI_02640		ATP synthase subunit c
+JBEABI_02645		YMF19 domain-containing protein
+JBEABI_02650		hypothetical protein
+JBEABI_02655		glutamine--fructose-6-phosphate transaminase (isomerizing)
+JBEABI_02660		Mechanosensitive ion channel family protein
+JBEABI_02665		hypothetical protein
+JBEABI_02670		hypothetical protein
+JBEABI_02675		hypothetical protein
+JBEABI_02680		bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC
+JBEABI_02685		hypothetical protein
+JBEABI_02690		LPS export ABC transporter periplasmic protein LptC
+JBEABI_02695		Putative phosphosugar isomerase
+JBEABI_02700		Outer membrane lipoprotein carrier protein LolA
+JBEABI_02705		Glutamate--tRNA ligase
+JBEABI_02710		hypothetical protein
+JBEABI_02715		Aspartate-semialdehyde dehydrogenase
+JBEABI_02720		hypothetical protein
+JBEABI_02725		DUF3971 domain-containing protein
+JBEABI_02730		Flagellin
+JBEABI_02735		DNA mismatch repair protein MutS
+JBEABI_02740	gatB	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB
+JBEABI_02745		Znf/thioredoxin-put domain-containing protein
+JBEABI_02755		Primosomal protein N'
+JBEABI_02760		hypothetical protein
+JBEABI_02765		hypothetical protein
+JBEABI_02770		hypothetical protein
+JBEABI_02775		hypothetical protein
+JBEABI_02780		hypothetical protein
+JBEABI_02785		hypothetical protein
+JBEABI_02790		YifB family Mg chelatase-like AAA ATPase
+JBEABI_02795		DNA polymerase III subunit alpha
+JBEABI_02800	ruvC	crossover junction endodeoxyribonuclease RuvC
+JBEABI_02805		putative transcriptional regulatory protein Saro_0419
+JBEABI_02810		RelA/SpoT family protein
+JBEABI_02815		Flavin-dependent thymidylate synthase
+JBEABI_02820		hypothetical protein
+JBEABI_02825		(pseudo) IS6 family transposase
+JBEABI_02830		hypothetical protein
+JBEABI_02835		hypothetical protein
+JBEABI_02840	fabG	3-oxoacyl-[acyl-carrier-protein] reductase
+JBEABI_02845		Cell division protein ZapE
+JBEABI_02850	blaOXA	class D beta-lactamase
+JBEABI_02855		hypothetical protein
+JBEABI_02860		hypothetical protein
+JBEABI_02865		hypothetical protein
+JBEABI_02870		Cysteine--tRNA ligase
+JBEABI_02875	lpdA	dihydrolipoyl dehydrogenase
+JBEABI_02880		Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+JBEABI_02885		2-oxoglutarate dehydrogenase E1 component
+JBEABI_02890		Protoporphyrinogen IX oxidase
+JBEABI_02895		hypothetical protein
+JBEABI_02905		Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+JBEABI_02910	rplQ	50S ribosomal protein L17
+JBEABI_02915		DNA-directed RNA polymerase subunit alpha
+JBEABI_02920	rpsK	30S ribosomal protein S11
+JBEABI_02925	rpsM	30S ribosomal protein S13
+JBEABI_02930		hypothetical protein
+JBEABI_02935		RlmE family RNA methyltransferase
+JBEABI_02940		Guanylate kinase
+JBEABI_02945		glutathione synthase
+JBEABI_02950		hypothetical protein
+JBEABI_02955		Ribulose-phosphate 3-epimerase
+JBEABI_02960		D-fructose 1,6-bisphosphatase class 2/sedoheptulose 1,7-bisphosphatase
+JBEABI_02965		DNA repair protein RecO
+JBEABI_02970		hypothetical protein
+JBEABI_02975		hypothetical protein
+JBEABI_02980		Penicillin-binding protein 2
+JBEABI_02985		hypothetical protein
+JBEABI_02990		endopeptidase La
+JBEABI_02995		ribosome silencing factor
+JBEABI_03000		hypothetical protein
+JBEABI_03005		hypothetical protein
+JBEABI_03010		hypothetical protein
+JBEABI_03015		hypothetical protein
+JBEABI_03025	rpmA	50S ribosomal protein L27
+JBEABI_03030		50S ribosomal protein L21
+JBEABI_03035		ATP-synt-DE-N domain-containing protein
+JBEABI_03040	atpD	F0F1 ATP synthase subunit beta
+JBEABI_03045		ATP synthase gamma chain
+JBEABI_03050	atpA	F0F1 ATP synthase subunit alpha
+JBEABI_03055		ATP synthase F1 subunit delta
+JBEABI_03060		Valine--tRNA ligase
+JBEABI_03065		Flagellar biosynthetic protein FliP
+JBEABI_03070		Flagellar biosynthetic protein FliP
+JBEABI_03075		hypothetical protein
+JBEABI_03080		ATP-binding cassette domain-containing protein
+JBEABI_03085		ABC transporter permease
+JBEABI_03090		Alanine racemase
+JBEABI_03100		type IV secretion system protein
+JBEABI_03105		hypothetical protein
+JBEABI_03110		Sulfite exporter TauE/SafE family protein
+JBEABI_03115	mraY	phospho-N-acetylmuramoyl-pentapeptide-transferase
+JBEABI_03120		DNA polymerase III subunit delta
+JBEABI_03125	map	type I methionyl aminopeptidase
+JBEABI_03130		COQ9 family protein
+JBEABI_03135		excinuclease ABC subunit UvrA
+JBEABI_03140		hypothetical protein
+JBEABI_03145		Protein GrpE
+JBEABI_03150		pentapeptide repeat-containing protein
+JBEABI_03155		Accessory factor UbiK family protein
+JBEABI_03160		Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase
+JBEABI_03165		hypothetical protein
+JBEABI_03170		hypothetical protein
+JBEABI_03175		DUF2063 domain-containing protein
+JBEABI_03180		DoxX family protein
+JBEABI_03185	petA	ubiquinol-cytochrome c reductase iron-sulfur subunit
+JBEABI_03190		Polyprenyl synthetase family protein
+JBEABI_03195		DNA ligase
+JBEABI_03200		iron-sulfur cluster assembly protein
+JBEABI_03205		Cysteine desulfurase
+JBEABI_03210		SufD family Fe-S cluster assembly protein
+JBEABI_03215		hypothetical protein
+JBEABI_03220	sufB	Fe-S cluster assembly protein SufB
+JBEABI_03225		SUF system Fe-S cluster assembly regulator
+JBEABI_03230		SufE family protein
+JBEABI_03235		hypothetical protein
+JBEABI_03240		hypothetical protein
+JBEABI_03245		hypothetical protein
+JBEABI_03250		Glutamine-dependent NAD(+) synthetase
+JBEABI_03255		INTRADIOL-DIOXYGENAS domain-containing protein
+JBEABI_03260		hypothetical protein
+JBEABI_03265		Triosephosphate isomerase
+JBEABI_03270		hypothetical protein
+JBEABI_03275		ATP-dependent dethiobiotin synthetase BioD
+JBEABI_03280		hypothetical protein
+JBEABI_03285		Pyridoxal phosphate-dependent aminotransferase family protein
+JBEABI_03290		Biotin synthase
+JBEABI_03295		Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+JBEABI_03300		alpha/beta fold hydrolase
+JBEABI_03305		hypothetical protein
+JBEABI_03310		hypothetical protein
+JBEABI_03315		CTP-transf-like domain-containing protein
+JBEABI_03320		Nicotinate phosphoribosyltransferase
+JBEABI_03325		hypothetical protein
+JBEABI_03335		Enolase
+JBEABI_03340		NADH-ubiquinone oxidoreductase subunit NDUFA12 family protein
+JBEABI_03345		Outer membrane lipid asymmetry maintenance protein MlaD
+JBEABI_03350		DUF2155 domain-containing protein
+JBEABI_03355		Glutamine synthetase
+JBEABI_03360		4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+JBEABI_03365		Transcription termination factor Rho
+JBEABI_03375		MFS transporter
+JBEABI_03380		hypothetical protein
+JBEABI_03385		hypothetical protein
+JBEABI_03395		hypothetical protein
+JBEABI_03400		Ferredoxin--NADP reductase
+JBEABI_03405		Bifunctional protein FolD
+JBEABI_03410		YihY/virulence factor BrkB family protein
+JBEABI_03415		Uroporphyrinogen decarboxylase
+JBEABI_03420		replicative DNA helicase
+JBEABI_03425		Cold shock-like protein CspA
+JBEABI_03430		50S ribosomal protein L25
+JBEABI_03435		hypothetical protein
+JBEABI_03440		Transcription termination/antitermination protein NusA
+JBEABI_03445		Ribosome maturation factor RimP
+JBEABI_03450		hypothetical protein
+JBEABI_03455		hypothetical protein
+JBEABI_03460		Histidine kinase
+JBEABI_03465		2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+JBEABI_03470		hypothetical protein
+JBEABI_03475		Folate-binding protein
+JBEABI_03480		Shikimate kinase
+JBEABI_03485		Lactamase-B domain-containing protein
+JBEABI_03490		hypothetical protein
+JBEABI_03495		DUF2312 domain-containing protein
+JBEABI_03500		AI-2E family transporter
+JBEABI_03505		Zinc-finger domain-containing protein
+JBEABI_03510		Type III pantothenate kinase
+JBEABI_03515		NADH-quinone oxidoreductase subunit N
+JBEABI_03520		NADH-quinone oxidoreductase subunit M
+JBEABI_03525		NADH-quinone oxidoreductase subunit L
+JBEABI_03530	nuoK	NADH-quinone oxidoreductase subunit NuoK
+JBEABI_03535		NADH-quinone oxidoreductase subunit J
+JBEABI_03540		hypothetical protein
+JBEABI_03545		epoxyqueuosine reductase QueH
+JBEABI_03550		TIGR01459 family HAD-type hydrolase
+JBEABI_03555		Fe/S biogenesis protein NfuA
+JBEABI_03560		NADP-dependent malic enzyme
+JBEABI_03565		Holliday junction ATP-dependent DNA helicase RuvA
+JBEABI_03570		ComF family protein
+JBEABI_03575	nuoF	NADH-quinone oxidoreductase subunit NuoF
+JBEABI_03580		HU family DNA-binding protein
+JBEABI_03585		hypothetical protein
+JBEABI_03590		Dihydrofolate synthase/folylpolyglutamate synthase
+JBEABI_03595		2-dehydro-3-deoxyphosphooctonate aldolase
+JBEABI_03600	smpB	SsrA-binding protein SmpB
+JBEABI_03605		DNA mismatch repair protein MutL
+JBEABI_03610		Glycerol-3-phosphate acyltransferase
+JBEABI_03615		Phenylalanine--tRNA ligase alpha subunit
+JBEABI_03620		50S ribosomal protein L20
+JBEABI_03625	rpmI	50S ribosomal protein L35
+JBEABI_03630		NADH-quinone oxidoreductase subunit G
+JBEABI_03635		Flagellum-specific ATP synthase
+JBEABI_03640		RluA family pseudouridine synthase
+JBEABI_03645		Phosphopantetheine adenylyltransferase
+JBEABI_03650		hypothetical protein
+JBEABI_03655		Putative ribose-5-phosphate isomerase B
+JBEABI_03660		Signal peptide peptidase SppA
+JBEABI_03665		TolC family protein
+JBEABI_03670		hypothetical protein
+JBEABI_03675		Ferrous iron transport protein A
+JBEABI_03680		Ferrous iron transport protein B
+JBEABI_03685		NADH-quinone oxidoreductase subunit D
+JBEABI_03690		NADH-quinone oxidoreductase subunit NuoE
+JBEABI_03695		hypothetical protein
+JBEABI_03700		Glycoside hydrolase family 3 protein
+JBEABI_03705		Transposase
+JBEABI_03710		hypothetical protein
+JBEABI_03715		DDE-type integrase/transposase/recombinase
+JBEABI_03720		Mannose-1-phosphate guanylyltransferase
+JBEABI_03725		hypothetical protein
+JBEABI_03730		17 kDa surface antigen
+JBEABI_03735		hypothetical protein
+JBEABI_03740		Tyrosine--tRNA ligase
+JBEABI_03745		lipoprotein-releasing ABC transporter permease subunit
+JBEABI_03750		Na(+)/H(+) antiporter NhaA
+JBEABI_03755		cation:proton antiporter
+JBEABI_03760		SDR family oxidoreductase
+JBEABI_03765		Recombination protein RecR
+JBEABI_03770		YjgP/YjgQ family permease
+JBEABI_03780		DNA-directed RNA polymerase subunit beta'
+JBEABI_03785		DNA-directed RNA polymerase subunit beta
+JBEABI_03790		50S ribosomal protein L7/L12
+JBEABI_03795		50S ribosomal protein L10
+JBEABI_03800		50S ribosomal protein L1
+JBEABI_03805	rplK	50S ribosomal protein L11
+JBEABI_03810	nusG	transcription termination/antitermination protein NusG
+JBEABI_03815		Preprotein translocase subunit SecE
+JBEABI_03820		Cytochrome b
+JBEABI_03825		carboxymuconolactone decarboxylase family protein
+JBEABI_03830		GTPase Der
+JBEABI_03835		Diguanylate cyclase
+JBEABI_03840		Chaperone protein HtpG
+JBEABI_03845		hypothetical protein
+JBEABI_03850		5-formyltetrahydrofolate cyclo-ligase
+JBEABI_03855	radA	DNA repair protein RadA
+JBEABI_03860		CvpA family protein
+JBEABI_03865		hypothetical protein
+JBEABI_03870		CADD family putative folate metabolism protein
+JBEABI_03875		type IV secretion system protein
+JBEABI_03880		hypothetical protein
+JBEABI_03885		hypothetical protein
+JBEABI_03890		hypothetical protein
+JBEABI_03895		hypothetical protein
+JBEABI_03900		hypothetical protein
+JBEABI_03905		hypothetical protein
+JBEABI_03910		hypothetical protein
+JBEABI_03915		Type IV secretion system protein VirB3
+JBEABI_03920		hypothetical protein
+JBEABI_03925		Thymidylate kinase
+JBEABI_03930		TAXI family TRAP transporter solute-binding subunit
+JBEABI_03935		hypothetical protein
+JBEABI_03940		hypothetical protein
+JBEABI_03945		Cell division protein FtsA
+JBEABI_03950		FtsQ-type POTRA domain-containing protein
+JBEABI_03955		hypothetical protein
+JBEABI_03960		outer membrane beta-barrel protein
+JBEABI_03965		4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)
+JBEABI_03970		Tryptophan--tRNA ligase
+JBEABI_03975		DNA polymerase I
+JBEABI_03980		Alanine--tRNA ligase
+JBEABI_03985		hypothetical protein
+JBEABI_03990		hypothetical protein
+JBEABI_03995		hypothetical protein
+JBEABI_04000		hypothetical protein
+JBEABI_04005		Putative GMP synthase
+JBEABI_04010		ADP,ATP carrier protein
+JBEABI_04015		50S ribosomal protein L28
+JBEABI_04020		hypothetical protein
+JBEABI_04025		MFS transporter
+JBEABI_04030		hypothetical protein
+JBEABI_04035		hypothetical protein
+JBEABI_04040		S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+JBEABI_04045		RNA pyrophosphohydrolase
+JBEABI_04050		Single-stranded DNA-binding protein
+JBEABI_04055		50S ribosomal protein L31
+JBEABI_04060		hypothetical protein
+JBEABI_04065		Preprotein translocase subunit SecG
+JBEABI_04070		CTP synthase
+JBEABI_04075		hypothetical protein
+JBEABI_04080		hypothetical protein
+JBEABI_04085		Aminotransferase
+JBEABI_04090		Diaminopimelate epimerase
+JBEABI_04095		4-hydroxy-tetrahydrodipicolinate synthase
+JBEABI_04100		4-hydroxy-tetrahydrodipicolinate reductase
+JBEABI_04105		Thiaminase II
+JBEABI_04110		Bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase
+JBEABI_04115		Thiamine-monophosphate kinase
+JBEABI_04120		Thiamine-phosphate synthase
+JBEABI_04125		Hydroxyethylthiazole kinase
+JBEABI_04140		hypothetical protein
+JBEABI_04145		hypothetical protein
+JBEABI_04150		hypothetical protein
+JBEABI_04155		Protein TolR
+JBEABI_04160		Protein TolQ
+JBEABI_04165		putative chromosome-partitioning protein ParB
+JBEABI_04170		AAA-31 domain-containing protein
+JBEABI_04175		tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+JBEABI_04180		tRNA modification GTPase MnmE
+JBEABI_04185		tRNA (guanine-N(7)-)-methyltransferase
+JBEABI_04190		Amino acid permease
+JBEABI_04195		Amino acid transporter
+JBEABI_04200		Protein-export membrane protein SecF
+JBEABI_04205		hypothetical protein
+JBEABI_04210		Rne/Rng family ribonuclease
+JBEABI_04215		ABC transporter ATP-binding protein/permease
+JBEABI_04220		Heme ABC exporter ATP-binding protein CcmA
+JBEABI_04225		hypothetical protein
+JBEABI_04230		hypothetical protein
+JBEABI_04235		Phosphatidylglycerophosphatase A
+JBEABI_04240		Bifunctional enzyme IspD/IspF
+JBEABI_04245		MFS transporter
+JBEABI_04250		2-pyrone-4,6-dicarboxylate hydrolase
+JBEABI_04260		Integrase xerC
+JBEABI_04265		RNA polymerase sigma factor RpoD
+JBEABI_04270		DNA primase
+JBEABI_04275		hypothetical protein
+JBEABI_04280		UvrABC system protein C
+JBEABI_04285	pgsA	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+JBEABI_04290		hypothetical protein
+JBEABI_04295		hypothetical protein
+JBEABI_04300		hypothetical protein
+JBEABI_04305		hypothetical protein
+JBEABI_04310		hypothetical protein
+JBEABI_04315		hypothetical protein
+JBEABI_04320		hypothetical protein
+JBEABI_04325		hypothetical protein
+JBEABI_04330		hypothetical protein
+JBEABI_04335		hypothetical protein
+JBEABI_04340		hypothetical protein
+JBEABI_04345		hypothetical protein
+JBEABI_04350		hypothetical protein
+JBEABI_04355		hypothetical protein
+JBEABI_04360		hypothetical protein
+JBEABI_04365		hypothetical protein
+JBEABI_04370		hypothetical protein
+JBEABI_04375		hypothetical protein
+JBEABI_04380		hypothetical protein
+JBEABI_04385		hypothetical protein
+JBEABI_04390		hypothetical protein
+JBEABI_04395		hypothetical protein
+JBEABI_04400		hypothetical protein
+JBEABI_04405		Methyltransferase
+JBEABI_04410		hypothetical protein
+JBEABI_04415		hypothetical protein
+JBEABI_04420		Chromosome-partitioning ATPase
+JBEABI_04425		DNA repair protein RecN
+JBEABI_04430		hypothetical protein
+JBEABI_04435		Peptide deformylase
+JBEABI_04440		tRNA dimethylallyltransferase
+JBEABI_04445		Uroporphyrinogen-III synthase
+JBEABI_04450		Smr/MutS family protein
+JBEABI_04455		NAD kinase
+JBEABI_04460		hypothetical protein
+JBEABI_04465		hypothetical protein
+JBEABI_04470		Pseudouridine synthase
+JBEABI_04475		Peptidoglycan-associated protein
+JBEABI_04480		DNA-protecting protein DprA
+JBEABI_04485		Isocitrate dehydrogenase [NADP]
+JBEABI_04490		tRNA (Adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB
+JBEABI_04495	recA	recombinase RecA
+JBEABI_04500		Pyruvate, phosphate dikinase
+JBEABI_04505		Signal peptidase I
+JBEABI_04510		Ribonuclease 3
+JBEABI_04515		GTPase Era
+JBEABI_04520		ribonucleoside-diphosphate reductase subunit alpha
+JBEABI_04525		ABC transporter substrate-binding protein
+JBEABI_04530		VacJ family lipoprotein
+JBEABI_04535		methyltransferase domain-containing protein
+JBEABI_04540		hypothetical protein
+JBEABI_04545		hypothetical protein
+JBEABI_04550		Ribosomal RNA small subunit methyltransferase A
+JBEABI_04555		LPS-assembly protein LptD
+JBEABI_04560		Parvulin-like PPIase
+JBEABI_04565		hypothetical protein
+JBEABI_04570		7-carboxy-7-deazaguanine synthase
+JBEABI_04575		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+JBEABI_04580		TlpA family protein disulfide reductase
+JBEABI_04585		GTP cyclohydrolase II
+JBEABI_04590		NirD/YgiW/YdeI family stress tolerance protein
+JBEABI_04595		tRNA pseudouridine synthase B
+JBEABI_04600		30S ribosomal protein S15
+JBEABI_04605		Polyribonucleotide nucleotidyltransferase
+JBEABI_04610		hypothetical protein
+JBEABI_04615		hypothetical protein
+JBEABI_04620		dTTP/UTP pyrophosphatase
+JBEABI_04625	infA	translation initiation factor IF-1
+JBEABI_04630		Thioredoxin
+JBEABI_04635		cytochrome c oxidase accessory protein CcoG
+JBEABI_04640		Disulfide bond formation protein B
+JBEABI_04645		3-demethoxyubiquinol 3-hydroxylase
+JBEABI_04650		hypothetical protein
+JBEABI_04655		LTA synthase family protein
+JBEABI_04660		Bifunctional protein GlmU
+JBEABI_04665		Protein translocase subunit SecD
+JBEABI_04670		Putative sensor histidine kinase NtrY-like
+JBEABI_04675		S-adenosylmethionine uptake transporter
+JBEABI_04680		hypothetical protein
+JBEABI_04685		Heme lyase CcmF/NrfE family subunit
+JBEABI_04690		hypothetical protein
+JBEABI_04695		NADPH-dependent oxidoreductase
+JBEABI_04700		hypothetical protein
+JBEABI_04705		hypothetical protein
+JBEABI_04710		class I SAM-dependent methyltransferase
+JBEABI_04715		hypothetical protein
+JBEABI_04720		GMP synthase [glutamine-hydrolyzing]
+JBEABI_04725		IMP dehydrogenase
+JBEABI_04730		Adenosine deaminase
+JBEABI_04735		hypothetical protein
+JBEABI_04740		hypothetical protein
+JBEABI_04750		MFS transporter
+JBEABI_04755		acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha
+JBEABI_04760		hypothetical protein
+JBEABI_04765		hypothetical protein
+JBEABI_04770		Heme chaperone HemW
+JBEABI_04775		Apolipoprotein N-acyltransferase
+JBEABI_04780		hypothetical protein
+JBEABI_04785		Flagellar motor stator protein MotA
+JBEABI_04790		OmpA-like domain-containing protein
+JBEABI_04795	typA	translational GTPase TypA
+JBEABI_04800		UDP-3-O-acyl-N-acetylglucosamine deacetylase
+JBEABI_04805		hypothetical protein
+JBEABI_04810		AAA family ATPase
+JBEABI_04815		Replication-associated recombination protein A
+JBEABI_04820		hypothetical protein
+JBEABI_04825		hypothetical protein
+JBEABI_04830		Response regulator
+JBEABI_04835		hypothetical protein
+JBEABI_04840		hypothetical protein
+JBEABI_04845		hypothetical protein
+JBEABI_04850		hypothetical protein
+JBEABI_04855		hypothetical protein
+JBEABI_04860		hypothetical protein
+JBEABI_04865		Resolvase/invertase-type recombinase catalytic domain-containing protein
+JBEABI_04870		Helicase
+JBEABI_04875		Sporulation initiation inhibitor protein Soj
+JBEABI_04880		putative chromosome-partitioning protein ParB
+JBEABI_04885		hypothetical protein
+JBEABI_04890		hypothetical protein
+JBEABI_04895		Protease 2
+JBEABI_04900		hypothetical protein
+JBEABI_04905		hypothetical protein
+JBEABI_04915		Type IV secretion system protein virB4
+JBEABI_04920		citrate synthase
+JBEABI_04925		Efflux RND transporter periplasmic adaptor subunit
+JBEABI_04930		PD-(D/E)XK nuclease family protein
+JBEABI_04935		Transport permease protein
+JBEABI_04940		ABC transporter ATP-binding protein
+JBEABI_04945		Chaperone protein DnaJ
+JBEABI_04950		Amino acid ABC transporter substrate-binding protein
+JBEABI_04955	ychF	redox-regulated ATPase YchF
+JBEABI_04960		Phosphoglucosamine mutase
+JBEABI_04965		putative lipid II flippase MurJ
+JBEABI_04980		lipid A phosphoethanolamine transferase
+JBEABI_04985		Dicarboxylate/amino acid:cation symporter
+JBEABI_04990	acpP	acyl carrier protein
+JBEABI_04995	fabF	beta-ketoacyl-ACP synthase II
+JBEABI_05000		hypothetical protein
+JBEABI_05005		hypothetical protein
+JBEABI_05010		Glutamate--tRNA ligase
+JBEABI_05015		hypothetical protein
+JBEABI_05020		tRNA-specific adenosine deaminase
+JBEABI_05025		Inositol-1-monophosphatase
+JBEABI_05030		hypothetical protein
+JBEABI_05035		Na+/alanine symporter
+JBEABI_05040		hypothetical protein
+JBEABI_05045		hypothetical protein
+JBEABI_05050		phage terminase large subunit
+JBEABI_05055		Aminopeptidase P family protein
+JBEABI_05060		Sigma-70 family RNA polymerase sigma factor
+JBEABI_05065		S-adenosylmethionine synthase
+JBEABI_05070		Putative response regulator NtrX-like
+JBEABI_05075		S-adenosylmethionine uptake transporter
+JBEABI_05080		hypothetical protein
+JBEABI_05085		(pseudo) hypothetical protein
+JBEABI_05090		(pseudo) hypothetical protein
+JBEABI_05095		hypothetical protein
+JBEABI_05100		hypothetical protein
+JBEABI_05105		Sec-independent protein translocase protein TatC
+JBEABI_05110		Serine--tRNA ligase
+JBEABI_05115		RDD family protein
+JBEABI_05120		hypothetical protein
+JBEABI_05125		Sodium/proline symporter
+JBEABI_05130		MFS transporter
+JBEABI_05140		hypothetical protein
+JBEABI_05145		hypothetical protein
+JBEABI_05150		UmuC domain-containing protein
+JBEABI_05155		hypothetical protein
+JBEABI_05160		hypothetical protein
+JBEABI_05165		hypothetical protein
+JBEABI_05170		hypothetical protein
+JBEABI_05175		hypothetical protein
+JBEABI_05180		Parvulin-like PPIase
+JBEABI_05185		OmpH family outer membrane protein
+JBEABI_05190		Outer membrane protein assembly factor BamA
+JBEABI_05195		Zinc metalloprotease
+JBEABI_05200		hypothetical protein
+JBEABI_05205		Gln-synt-C domain-containing protein
+JBEABI_05210		hypothetical protein
+JBEABI_05215		Penicillin-binding protein 1A
+JBEABI_05220		hypothetical protein
+JBEABI_05225		Signal recognition particle protein
+JBEABI_05230		Outer membrane protein assembly factor BamE
+JBEABI_05235		Response regulator transcription factor
+JBEABI_05240		hypothetical protein
+JBEABI_05245		hypothetical protein
+JBEABI_05250		Phosphoethanolamine--lipid A transferase
+JBEABI_05255		GTPase Obg
+JBEABI_05260		hypothetical protein
+JBEABI_05265		Serine-type D-Ala-D-Ala carboxypeptidase
+JBEABI_05270		DNA recombination RmuC-like protein
+JBEABI_05275		hypothetical protein
+JBEABI_05280		Isoprenyl transferase
+JBEABI_05285		Phosphatidate cytidylyltransferase
+JBEABI_05290		1-deoxy-D-xylulose 5-phosphate reductoisomerase
+JBEABI_05295		Lipoyl synthase
+JBEABI_05300		Cell shape-determining protein MreC
+JBEABI_05305		Dihydroneopterin aldolase
+JBEABI_05310		TIGR02281 family clan AA aspartic protease
+JBEABI_05315		hypothetical protein
+JBEABI_05320		hypothetical protein
+JBEABI_05325		hypothetical protein
+JBEABI_05330		hypothetical protein
+JBEABI_05335		conjugal transfer protein TraH
+JBEABI_05340		hypothetical protein
+JBEABI_05345		hypothetical protein
+JBEABI_05350		DUF853 domain-containing protein
+JBEABI_05355		hypothetical protein
+JBEABI_05360		hypothetical protein
+JBEABI_05365		hypothetical protein
+JBEABI_05370		hypothetical protein
+JBEABI_05375		Ribonuclease VapC
+JBEABI_05380		hypothetical protein
+JBEABI_05385		MFS transporter
+JBEABI_05390		tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+JBEABI_05400		hypothetical protein
+JBEABI_05405		hypothetical protein
+JBEABI_05410		ProQ/FinO family protein
+JBEABI_05415		HU family DNA-binding protein
+JBEABI_05420		Cold-shock protein
+JBEABI_05425		ribonuclease D
+JBEABI_05430	ykgO	type B 50S ribosomal protein L36
+JBEABI_05435		UDP-3-O-acylglucosamine N-acyltransferase
+JBEABI_05440	fabZ	3-hydroxyacyl-ACP dehydratase FabZ
+JBEABI_05445		Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase
+JBEABI_05450		DUF1009 domain-containing protein
+JBEABI_05455		3,4-dihydroxy-2-butanone 4-phosphate synthase
+JBEABI_05460		Cytidylate kinase
+JBEABI_05465		30S ribosomal protein S1
+JBEABI_05470		hypothetical protein
+JBEABI_05475		hypothetical protein
+JBEABI_05480		hypothetical protein
+JBEABI_05485		hypothetical protein
+JBEABI_05490		hypothetical protein
+JBEABI_05500		tRNA N6-adenosine threonylcarbamoyltransferase
+JBEABI_05505	lepA	translation elongation factor 4
+JBEABI_05510		hypothetical protein
+JBEABI_05515		hypothetical protein
+JBEABI_05520		Transposase
+JBEABI_05525		hypothetical protein
+JBEABI_05530		hypothetical protein
+JBEABI_05535		hypothetical protein
+JBEABI_05540		Adenylate kinase
+JBEABI_05545	secY	preprotein translocase subunit SecY
+JBEABI_05550	rplO	50S ribosomal protein L15
+JBEABI_05555	rpsE	30S ribosomal protein S5
+JBEABI_05560		50S ribosomal protein L18
+JBEABI_05565		50S ribosomal protein L6
+JBEABI_05570		30S ribosomal protein S8
+JBEABI_05575		30S ribosomal protein S14
+JBEABI_05580	rplE	50S ribosomal protein L5
+JBEABI_05585		50S ribosomal protein L24
+JBEABI_05590	rplN	50S ribosomal protein L14
+JBEABI_05595	rpsQ	30S ribosomal protein S17
+JBEABI_05600		50S ribosomal protein L29
+JBEABI_05605	rplP	50S ribosomal protein L16
+JBEABI_05610	rpsC	30S ribosomal protein S3
+JBEABI_05615	rplV	50S ribosomal protein L22
+JBEABI_05620	rpsS	30S ribosomal protein S19
+JBEABI_05625	rplB	50S ribosomal protein L2
+JBEABI_05630		50S ribosomal protein L23
+JBEABI_05635		50S ribosomal protein L4
+JBEABI_05640		50S ribosomal protein L3
+JBEABI_05645		30S ribosomal protein S10
+JBEABI_05650		Hsp20/alpha crystallin family protein
+JBEABI_05655		AAA-ATPase-like domain-containing protein
+JBEABI_05660		HU family DNA-binding protein
+JBEABI_05665		DUF2312 domain-containing protein
+JBEABI_05670		Single-stranded DNA-binding protein
+JBEABI_05675		Cold shock-like protein CspA
+JBEABI_05680		Bax inhibitor-1/YccA family protein
+JBEABI_05685		Fido domain-containing protein
+JBEABI_05690		hypothetical protein
+JBEABI_05695		hypothetical protein
+JBEABI_05700		hypothetical protein
+JBEABI_05705		Type III pantothenate kinase
+JBEABI_05710		hypothetical protein
+JBEABI_05715		hypothetical protein
+JBEABI_05720		Exodeoxyribonuclease III
+JBEABI_05725		Formamidopyrimidine-DNA glycosylase
+JBEABI_05730		Riboflavin biosynthesis protein
+JBEABI_05735	ruvB	Holliday junction branch migration DNA helicase RuvB
+JBEABI_05740		ABC transporter ATP-binding protein
+JBEABI_05745	rpmG	50S ribosomal protein L33
+JBEABI_05750		Putrescine-binding periplasmic protein
+JBEABI_05755		ABC transporter permease subunit
+JBEABI_05760		ABC transporter permease subunit
+JBEABI_05765		Spermidine/putrescine import ATP-binding protein PotA
+JBEABI_05770		hypothetical protein
+JBEABI_05775		hypothetical protein
+JBEABI_05780		hypothetical protein
+JBEABI_05785		hypothetical protein
+JBEABI_05790		Transcription antitermination factor NusB
+JBEABI_05795		6,7-dimethyl-8-ribityllumazine synthase
+JBEABI_05805		Ferredoxin
+JBEABI_05810		hypothetical protein
+JBEABI_05815		hypothetical protein
+JBEABI_05825		hypothetical protein
+JBEABI_05830		hypothetical protein
+JBEABI_05835		hypothetical protein
+JBEABI_05840		Transposase
+JBEABI_05845		DDE-Tnp-Tn3 domain-containing protein
+JBEABI_05850		hypothetical protein
+JBEABI_05855		hypothetical protein
+JBEABI_05860		hypothetical protein
+JBEABI_05865		Protein ParA
+JBEABI_05870		hypothetical protein
+JBEABI_05875		hypothetical protein
+JBEABI_05880		hypothetical protein
+JBEABI_05885		hypothetical protein
+JBEABI_05890		Transposase
+JBEABI_05895		hypothetical protein
+JBEABI_05900		hypothetical protein
+JBEABI_05905		hypothetical protein
+JBEABI_05910		AAA domain-containing protein
+JBEABI_05915		recombinase family protein
+JBEABI_05920		recombinase family protein
+JBEABI_05925		DNA helicase
+JBEABI_05930		conjugal transfer protein TraN
+JBEABI_05935		hypothetical protein
+JBEABI_05940		hypothetical protein
+JBEABI_05945		TraU family protein
+JBEABI_05950		hypothetical protein
+JBEABI_05955		hypothetical protein
+JBEABI_05960		hypothetical protein
+JBEABI_05965		hypothetical protein
+JBEABI_05970		type-F conjugative transfer system protein TraW
+JBEABI_05975		hypothetical protein
+JBEABI_05980		Conjugal transfer pilus assembly protein TraU
+JBEABI_05985		type-F conjugative transfer system pilin assembly protein TrbC
+JBEABI_05990		hypothetical protein
+JBEABI_05995		conjugal transfer protein TraN
+JBEABI_06000		hypothetical protein
+JBEABI_06005		PIN domain-containing protein
+JBEABI_06010		hypothetical protein
+JBEABI_06015		hypothetical protein
+JBEABI_06025		hypothetical protein
+JBEABI_06030		hypothetical protein
+JBEABI_06035		MFS domain-containing protein
+JBEABI_06045		Nucleoside diphosphate kinase
+JBEABI_06050		hypothetical protein
+JBEABI_06055		Enoyl-[acyl-carrier-protein] reductase [NADH]
+JBEABI_06060		Surface antigen
+JBEABI_06065		Kinase/pyrophosphorylase
+JBEABI_06070		ATP-dependent zinc metalloprotease FtsH
+JBEABI_06075		hypothetical protein
+JBEABI_06080		hypothetical protein
+JBEABI_06085		hypothetical protein
+JBEABI_06090		hypothetical protein
+JBEABI_06095		hypothetical protein
+JBEABI_06100		hypothetical protein
+JBEABI_06105		hypothetical protein
+JBEABI_06110		Resolvase/invertase-type recombinase catalytic domain-containing protein
+JBEABI_06115		hypothetical protein
+JBEABI_06120		hypothetical protein
+JBEABI_06125		hypothetical protein
+JBEABI_06130		DUF1016 domain-containing protein
+JBEABI_06135		hypothetical protein
+JBEABI_06140		Putative pterin-4-alpha-carbinolamine dehydratase
+JBEABI_06145		PINc domain-containing protein
+JBEABI_06150		AbrB/MazE/SpoVT family DNA-binding domain-containing protein
+JBEABI_06155		hypothetical protein
+JBEABI_06160		hypothetical protein
+JBEABI_06165		Fido domain-containing protein
+JBEABI_06170		tyrosine-type recombinase/integrase
+JBEABI_06175		hypothetical protein
+JBEABI_06180		hypothetical protein
+JBEABI_06185		hypothetical protein
+JBEABI_06190		hypothetical protein
+JBEABI_06195		SDR family oxidoreductase
+JBEABI_06200		hypothetical protein
+JBEABI_06205		DNA translocase FtsK
+JBEABI_06210		P-type conjugative transfer protein VirB9
+JBEABI_06215		VirB8 domain-containing protein
+JBEABI_06220		Prepilin peptidase
+JBEABI_06225		hypothetical protein
+JBEABI_06230		hypothetical protein
+JBEABI_06235		hypothetical protein
+JBEABI_06240		hypothetical protein
+JBEABI_06245		S9 family peptidase
+JBEABI_06250		hypothetical protein
+JBEABI_06255		hypothetical protein
+JBEABI_06260		hypothetical protein
+JBEABI_06265		Protein HflC
+JBEABI_06270		D-alanine--D-alanine ligase
+JBEABI_06275		AAA domain-containing protein
+JBEABI_06280		hypothetical protein
+JBEABI_06285		Transposase for insertion sequence element IS629
+JBEABI_06290		ATP-dependent protease subunit HslV
+JBEABI_06295		Peptidyl-prolyl cis-trans isomerase

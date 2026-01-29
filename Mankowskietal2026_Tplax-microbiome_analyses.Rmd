@@ -1,0 +1,343 @@
+---
+title: "Trichoplax Microbiome, Mankowski et al. 2026"
+author: "Anna Mankowski"
+date: "2026-01-08"
+output: html_document
+---
+
+# Peparations
+
+```{r Load libraries, echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library("phyloseq")
+library("ape")
+library("rareNMtests")
+library("ggplot2")
+library("ggpmisc")
+library("vegan")
+library("gridExtra")
+library("plyr")
+library("MASS")
+library("gdata")
+library("dplyr")
+library("reshape2")
+library("forcats")
+library("patchwork")
+library("phytools")
+library("igraph")
+library("Hmisc")
+library("optparse")
+library("reshape2")
+library("stringr")
+library("ggpubr")
+library("maps")
+library("mapdata")
+library("data.table")
+library("ade4")
+library("tidyverse")
+library("spaa")
+library("geodist")
+library("visNetwork")
+library("cooccur")
+library("tidyr")
+library("FSA")
+```
+
+```{r Colours}
+symbiont.colors<-c("Aquarickettsia"="#42c1c1", "Grellia"="#6286c4", "Terasakiellaceae"="#3366CC", "Rhodobacteraceae"="#3366CC", "Sphingomonadaceae" = "#3366CC", "Megaira"="#9deae8","Benwitzia"="#276d6b", "Rickettsiaceae"="#0033FF", "Babeliales"="#CCCC00", "Simkaniaceae"="#660066", "Coxiellaceae"="#990000","Margulisbacteria"="#CC66FF", "Flavobacteriaceae"="#66CC99", "Spirosomaceae"="#66CC99","Cyclobacteriaceae"="#66CC99", "Endozoicomonadaceae"="#FF6666", "Comamonadaceae"="#CC6666", "Alcanivoracaceae1"="#CC6666", "Marinobacteraceae"="#CC6666", "Spongiibacteraceae"="#CC6666", "Saccharospirillaceae"="#CC6666", "Nitrincolaceae"="#CC6666", "Burkholderiaceae"="#CC6666", "Xanthomonadaceae"="#CC6666", "Alteromonadaceae"="#CC6666", "Gammaproteobacteria_bacterium_LS_SOB"="#CC6666", "Salinisphaeraceae"="#CC6666", "Pseudohongiellaceae"="#CC6666", "Sutterellaceae"="#CC6666", "Pseudoalteromonadaceae"="#CC6666", "Halomonadaceae"="#CC6666", "Vibrionaceae"="#CC6666", "Colwelliaceae"="#CC6666", "Idiomarinaceae"="#CC6666", "Methylophilaceae" = "#CC6666")
+
+rick.colors <- c("Aquarickettsia"="#42c1c1", "Grellia"="#6286c4", "Megaira"="#9deae8", "Benwitzia"="#276d6b")
+```
+
+```{r format metadata}
+metadata <- read.table("./data/metadata_2026.csv", sep = ",", header = T)
+```
+
+# Figure 1
+
+```{r format abundance table}
+abundance.table.raw <- read.table("./data/abundances.wo-chimera.tsv", sep = ",", header = T)
+names(abundance.table.raw) <- c("lib", "tax", "abundance")
+abundance.table.raw$tax[abundance.table.raw$tax == "" | is.na(abundance.table.raw$tax)] <- "chloroplasts"
+abundance.table.raw <- abundance.table.raw %>%
+  mutate(tax = gsub("_m[0-9]*", "", tax))
+
+associations <- read.table("./data/contaminations.csv", sep = ",", header = F)
+names(associations) <- c("tax", "type")
+associations.unique <- unique(associations)
+
+contaminations <- associations.unique %>%
+  filter(type == "contamination")
+
+abundance.table.filtered <- abundance.table.raw %>%
+  filter(!tax %in% contaminations$tax)
+
+singletons <- abundance.table.filtered %>%
+  group_by(tax) %>%
+  filter(n_distinct(lib) == 1) %>%
+  ungroup()
+
+abundance.table.filtered <- abundance.table.filtered %>%
+  filter(!tax %in% singletons$tax)
+
+abundance.table.final <- abundance.table.filtered %>%
+  group_by(lib) %>%
+  mutate(abundance = abundance / sum(abundance)) %>%
+  ungroup()
+```
+
+```{r plot abundance data}
+abundance.md <- abundance.table.final %>%
+  merge(metadata, by.x = "lib", by.y = "library")
+
+## MAP 
+
+world <- map_data("world")
+
+abundance.md$longitude <- as.numeric(abundance.md$longitude)
+abundance.md$latitude <- as.numeric(abundance.md$latitude)
+
+map.p <- ggplot() +
+ geom_polygon(data=world, aes(x=long, y=lat, group=group) , fill="grey")+
+  theme_bw() +
+ theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),
+    panel.border=element_blank()) +
+ theme(axis.title=element_blank(), 
+    axis.text=element_blank(), 
+    axis.ticks=element_blank()) +
+ geom_point(data=abundance.md, aes(x=longitude, y=latitude, shape=environment), size=2) +   theme(legend.position="none")
+
+ggsave(map.p, file="./plots/Fig1b_map.pdf", width=170, height=110, units="mm", limitsize=F)
+
+
+## ABUNDANCE
+
+symbiont.order <- c("Aquarickettsia", "Grellia", "Benwitzia", "Megaira", "Rickettsiaceae", "Margulisbacteria", "Simkaniaceae", "Coxiellaceae", "Endozoicomonadaceae", "Terasakiellaceae", "Rhodobacteraceae", "Sphingomonadaceae", "Comamonadaceae", "Alcanivoracaceae1", "Marinobacteraceae", "Spongiibacteraceae", "Saccharospirillaceae", "Nitrincolaceae", "Burkholderiaceae", "Xanthomonadaceae", "Alteromonadaceae", "Gammaproteobacteria_bacterium_LS_SOB", "Salinisphaeraceae", "Pseudohongiellaceae", "Sutterellaceae", "Pseudoalteromonadaceae", "Halomonadaceae", "Vibrionaceae", "Methylophilaceae", "Colwelliaceae", "Idiomarinaceae", "Flavobacteriaceae", "Cyclobacteriaceae", "Spirosomaceae", "Babeliales")
+
+host.order <- c("H4", "H15", "H11", "H7", "H8", "H6", "H2", "H3")
+
+abundance.md$tax <- factor(abundance.md$tax, levels = symbiont.order)
+abundance.md$type <- factor(abundance.md$type, levels = host.order)
+abundance.md <- abundance.md %>%
+  arrange(type, lib_old) %>% 
+  mutate(lib_old = factor(lib_old, levels = unique(lib_old)))
+
+abundance.p <- ggplot(abundance.md, aes(x = fct_rev(lib_old),  y = fct_rev(tax)))+
+  geom_point(aes(size = abundance, fill = tax), shape = 21) +
+  scale_size_continuous(range = c(1,3),
+                        guide = "legend",
+                        name =" Relative abundance (%)") +
+  scale_fill_manual(values = symbiont.colors) +
+  theme_minimal() +
+  guides(fill = "none") +
+  theme(legend.position="bottom") + 
+  scale_x_discrete(position="top") +
+  theme(axis.text.x=element_text(angle = -90, hjust = 1, size = 5),
+        axis.title.x=element_blank()) +
+  theme(axis.text.y=element_text(size = 5),
+        axis.title.y=element_blank())
+
+ggsave(abundance.p, file="./plots/Fig1c_abundance.pdf", width=170, height=120, units="mm", limitsize=F)
+```
+
+# Figure 2
+
+```{r make input for pastml}
+lib.annotation <- read.table("./data/libs-with-type-site.tsv", sep = "\t", header = T)
+
+reta.table.renamed <- abundance.table.final %>%
+  merge(lib.annotation, by.x ="lib", by.y = "library") %>%
+  select(library_type_site, tax) %>%
+  filter(tax %in% c("Grellia", "Benwitzia", "Aquarickettsia", "Megaira")) 
+
+write.table(reta.table.renamed, "./data/reta.for-lca.csv", sep = ",", row.names = FALSE, quote = FALSE)
+```
+
+# Figure 4 
+
+```{r format and plot genome stats and transcriptomics}
+genome.stats <- read.csv("./data/genome.stats.csv", sep = ",", header = T)
+
+### Figure 4a
+
+genomestats.p <- ggplot() +
+  geom_point(data = genome.stats, aes(x = gc, y = size, fill = symbiont), size = 3, pch = 21) +
+  scale_fill_manual(values = rick.colors) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+ggsave(genomestats.p, file="./plots/Fig4a_genomestats.pdf", width=70, height=70, units="mm", limitsize=F)
+
+
+### Figure 4b
+
+cog.data <- read.csv("./data/cog_cats.tsv", sep = "\t", header = T)
+names(cog.data) <- c("genome","gene", "category")
+
+cog.data <- cog.data %>%
+  merge(genome.stats, by = "genome")
+
+cog.counts.all <- cog.data %>%
+  select(genome, symbiont, category) %>%
+  group_by(genome, category, symbiont) %>%
+  summarise(count = n(), .groups = "drop")
+
+cog.counts.wide <- cog.counts.all %>%
+  pivot_wider(names_from = category, values_from = count, values_fill = 0)
+
+count.cols <- cog.counts.wide %>%
+  select(-genome, -symbiont)
+
+count.cols.rel <- count.cols / rowSums(count.cols)
+bc.dist <- vegdist(count.cols.rel, method = "bray")
+
+set.seed(4)
+
+nmds <- metaMDS(bc.dist, k = 2, trymax = 100)
+
+nmds.df <- as.data.frame(nmds$points)
+nmds.df$genome <- cog.counts.wide$genome
+nmds.df$symbiont <- cog.counts.wide$symbiont 
+
+cog.nmds.p <- ggplot(nmds.df, aes(x = MDS1, y = MDS2, color = symbiont, text = paste(genome)))+
+  geom_point(size = 3) +
+  scale_color_manual(values = rick.colors) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+ggsave(cog.nmds.p, file="./plots/Fig4b_cog_nmds.pdf", width=70, height=70, units="mm", limitsize=F)
+
+### Figure 4c
+
+tpm <- read.csv("./data/atp.tpm.csv", sep =",")
+gene.names <- read.csv("./data/gene.names.tsv", sep ="\t", header = FALSE)
+names(gene.names) <- c("target_id", "abbrev", "gene_name")
+
+tpm <- tpm %>%
+  merge(gene.names, by = "target_id")
+
+tpm.atp <- tpm %>%
+  filter(str_detect(gene_name, "ATP synthase|ADP,ATP"))
+
+tpm.atp <- tpm.atp %>%
+  mutate(cat = if_else(str_detect(gene_name, regex("ADP", ignore_case = TRUE)), "ADP", "ATP")) %>%
+  mutate(sym = "Grellia") %>%
+    mutate(host = case_when(str_detect(lib, "TR") ~ "Hawaii", TRUE ~ "Vienna"))
+ 
+atp.tpm.boxplot.p <- ggplot(tpm.atp) +
+  geom_boxplot(aes(x = interaction(sym, host), y = tpm, fill = interaction(sym, host))) +
+  scale_fill_manual(values = c("Grellia.Hawaii" = "#6286c4", "Grellia.Vienna" = "#6286c4")) +
+  facet_wrap(~ cat, ncol = 1) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+ggsave(atp.tpm.boxplot.p, file="./plots/Fig4c_atp_tpm.pdf", width=40, height=70, units="mm", limitsize=F)
+```
+
+# Figure Supp 4
+
+```{r distribution of ATP related genes}
+atp <-  read.csv("./data/atp_adp.overview.tsv", sep = "\t", header = T)
+
+genome.stats <- genome.stats %>%
+  mutate(symbiont_haplotype_site = paste(symbiont, haplotype, site, sep = "_"))
+
+atp <- atp %>%
+  left_join(genome.stats %>% select(genome, symbiont_haplotype_site), by = "genome")
+
+atp.pct <- atp %>%
+  group_by(symbiont_haplotype_site, gene) %>%
+  summarise(
+    n_genomes_with_gene = n_distinct(genome),
+    total_genomes = n_distinct(atp$genome[atp$symbiont_haplotype_site == unique(symbiont_haplotype_site)]),
+    pct_genomes_with_gene = (n_genomes_with_gene / total_genomes) * 100,
+    .groups = "drop")
+
+atp.pct <- atp.pct %>%
+  mutate(gene_type = ifelse(grepl("synthase", gene, ignore.case = TRUE),
+                            "Synthase", "Translocase"))
+
+atp.pct <- atp.pct %>%
+  mutate(symbiont = str_extract(symbiont_haplotype_site, "^[^_]+"))
+
+rickettsia.order <- c("Aquarickettsia", "Grellia", "Benwitzia", "Megaira")
+
+atp.pct <- atp.pct %>%
+  arrange(match(symbiont, rickettsia.order)) %>% 
+  mutate(symbiont_haplotype_site = factor(symbiont_haplotype_site, levels = unique(symbiont_haplotype_site)))
+
+atp.adp.heatmap.p <- ggplot(atp.pct, aes(x = symbiont_haplotype_site, y = gene, fill = pct_genomes_with_gene)) +
+  geom_tile(color = "white") +
+  geom_text(aes(label = round(pct_genomes_with_gene, 0)), size = 3) +
+  scale_fill_gradient(low = "white", high = "steelblue", name = "% Genomes") +
+  facet_wrap(~ gene_type, ncol =1, scales = "free_y") + 
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggsave(atp.adp.heatmap.p, file="./plots/FigS4_heatmap_atp_adp.pdf", width=180, height=210, units="mm", limitsize=F)
+```
+
+# Table Supp 4
+
+```{r check Rickettsiales presence on different levels}
+# Summarise EMIRGE assemblies
+
+rickettsia.taxa <- c("Aquarickettsia", "Grellia", "Benwitzia", "Megaira")
+rickettsia.assembled <- metadata %>%
+  distinct(library) %>%
+  rename(lib = library) %>%
+  left_join(
+    abundance.table.final %>%
+      filter(tax %in% rickettsia.taxa & !is.na(tax)) %>%
+      distinct(lib, tax) %>% 
+      mutate(present = "yes"),
+    by = "lib") %>%
+  pivot_wider(
+    names_from = tax,
+    values_from = present,
+    values_fill = "no") %>%
+  mutate(across(all_of(rickettsia.taxa), ~replace_na(.x, "no"))) %>%
+  select(lib, all_of(rickettsia.taxa))
+
+rickettsia.assembled <- rickettsia.assembled %>%
+  merge(lib.annotation, by.x = "lib", by.y = "library") %>%
+  select(library_type_site, Aquarickettsia, Grellia, Benwitzia, Megaira) %>%
+  rename(sample = library_type_site)
+
+write_tsv(rickettsia.assembled, "./data/rickettsia.assembled.tsv")
+
+# Summarise genome mapping
+
+genome.mapping.out <- read.table("./data/reta-mapping.out.tsv", sep = "\t", header = F)
+names(genome.mapping.out) <- c("lib", "genome", "mapped_genes", "all_genes")
+genome.mapping.out <- genome.mapping.out %>%
+  mutate(genome = sub("^[^.]+\\.", "", genome)) %>%
+  mutate(genome = sub("\\.kallisto\\.out", "", genome)) 
+
+genome.mapping.out <- genome.mapping.out %>%
+  mutate(pct_mapped = (mapped_genes / all_genes) * 100)
+
+genome.mapping.with_symbiont <- genome.mapping.out %>%
+  left_join(genome.stats %>% select(genome, symbiont), by = "genome")
+
+genome.mapping.summary <- genome.mapping.with_symbiont %>%
+  group_by(lib, symbiont) %>%
+  summarise(
+    mean_pct_mapped = mean(pct_mapped, na.rm = TRUE),
+    sd_pct_mapped = sd(pct_mapped, na.rm = TRUE),
+    n_genomes = n(),
+    .groups = "drop")
+
+rickettsia.genome.mapped <- genome.mapping.summary %>%
+  select(lib, symbiont, mean_pct_mapped) %>%
+  pivot_wider(
+    names_from = symbiont,
+    values_from = mean_pct_mapped,
+    values_fill = NA)
+
+rickettsia.genome.mapped <- rickettsia.genome.mapped %>%
+  merge(lib.annotation, by.x = "lib", by.y = "library") %>%
+  select(library_type_site, Aquarickettsia, Grellia, Benwitzia, Megaira) %>%
+  rename(sample = library_type_site)
+
+write_tsv(rickettsia.genome.mapped, "./data/rickettsia.genome.mapped.tsv")
+```
