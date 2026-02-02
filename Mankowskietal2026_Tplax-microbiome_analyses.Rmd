@@ -206,6 +206,9 @@ cog.nmds.p <- ggplot(nmds.df, aes(x = MDS1, y = MDS2, color = symbiont, text = p
 
 ggsave(cog.nmds.p, file="./plots/Fig4b_cog_nmds.pdf", width=70, height=70, units="mm", limitsize=F)
 
+adonis2(bc.dist ~ symbiont, data = cog.counts.wide, permutations = 999)
+anosim(bc.dist, grouping = cog.counts.wide$symbiont, permutations = 999)
+
 ### Figure 4c
 
 tpm <- read.csv("./data/atp.tpm.csv", sep =",")
