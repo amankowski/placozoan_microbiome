@@ -43,9 +43,9 @@ library("FSA")
 ```
 
 ```{r Colours}
-symbiont.colors<-c("Aquarickettsia"="#42c1c1", "Grellia"="#6286c4", "Terasakiellaceae"="#3366CC", "Rhodobacteraceae"="#3366CC", "Sphingomonadaceae" = "#3366CC", "Megaira"="#9deae8","Benwitzia"="#276d6b", "Rickettsiaceae"="#0033FF", "Babeliales"="#CCCC00", "Simkaniaceae"="#660066", "Coxiellaceae"="#990000","Margulisbacteria"="#CC66FF", "Flavobacteriaceae"="#66CC99", "Spirosomaceae"="#66CC99","Cyclobacteriaceae"="#66CC99", "Endozoicomonadaceae"="#FF6666", "Comamonadaceae"="#CC6666", "Alcanivoracaceae1"="#CC6666", "Marinobacteraceae"="#CC6666", "Spongiibacteraceae"="#CC6666", "Saccharospirillaceae"="#CC6666", "Nitrincolaceae"="#CC6666", "Burkholderiaceae"="#CC6666", "Xanthomonadaceae"="#CC6666", "Alteromonadaceae"="#CC6666", "Gammaproteobacteria_bacterium_LS_SOB"="#CC6666", "Salinisphaeraceae"="#CC6666", "Pseudohongiellaceae"="#CC6666", "Sutterellaceae"="#CC6666", "Pseudoalteromonadaceae"="#CC6666", "Halomonadaceae"="#CC6666", "Vibrionaceae"="#CC6666", "Colwelliaceae"="#CC6666", "Idiomarinaceae"="#CC6666", "Methylophilaceae" = "#CC6666")
+symbiont.colors<-c("Aquarickettsia"="#1dc4f4", "Grellia"="#4876ba", "Terasakiellaceae"="#3366CC", "Rhodobacteraceae"="#3366CC", "Sphingomonadaceae" = "#3366CC", "Megaira"="#b5d334","Benwitzia"="#58b947", "Rickettsiaceae"="#0033FF", "Babeliales"="#CCCC00", "Simkaniaceae"="#660066", "Coxiellaceae"="#990000","Margulisbacteria"="#CC66FF", "Flavobacteriaceae"="#66CC99", "Spirosomaceae"="#66CC99","Cyclobacteriaceae"="#66CC99", "Endozoicomonadaceae"="#FF6666", "Comamonadaceae"="#CC6666", "Alcanivoracaceae1"="#CC6666", "Marinobacteraceae"="#CC6666", "Spongiibacteraceae"="#CC6666", "Saccharospirillaceae"="#CC6666", "Nitrincolaceae"="#CC6666", "Burkholderiaceae"="#CC6666", "Xanthomonadaceae"="#CC6666", "Alteromonadaceae"="#CC6666", "Gammaproteobacteria_bacterium_LS_SOB"="#CC6666", "Salinisphaeraceae"="#CC6666", "Pseudohongiellaceae"="#CC6666", "Sutterellaceae"="#CC6666", "Pseudoalteromonadaceae"="#CC6666", "Halomonadaceae"="#CC6666", "Vibrionaceae"="#CC6666", "Colwelliaceae"="#CC6666", "Idiomarinaceae"="#CC6666", "Methylophilaceae" = "#CC6666")
 
-rick.colors <- c("Aquarickettsia"="#42c1c1", "Grellia"="#6286c4", "Megaira"="#9deae8", "Benwitzia"="#276d6b")
+rick.colors <- c("Aquarickettsia"="#1dc4f4", "Grellia"="#4876ba", "Megaira"="#b5d334", "Benwitzia"="#58b947")
 ```
 
 ```{r format metadata}
@@ -156,17 +156,17 @@ write.table(reta.table.renamed, "./data/reta.for-lca.csv", sep = ",", row.names 
 
 ```{r format and plot genome stats and transcriptomics}
 genome.stats <- read.csv("./data/genome.stats.csv", sep = ",", header = T)
+genome.stats.hq <- genome.stats %>% filter(completeness >= 90, contamination < 5)
 
 ### Figure 4a
 
 genomestats.p <- ggplot() +
-  geom_point(data = genome.stats, aes(x = gc, y = size, fill = symbiont), size = 3, pch = 21) +
+  geom_point(data = genome.stats.hq, aes(x = gc, y = size, fill = symbiont), size = 4, pch = 21) +
   scale_fill_manual(values = rick.colors) +
   theme_minimal() +
   theme(legend.position = "none")
 
-ggsave(genomestats.p, file="./plots/Fig4a_genomestats.pdf", width=70, height=70, units="mm", limitsize=F)
-
+ggsave(genomestats.p, file="./plots/Fig4a_genomestats_rev.pdf", width=70, height=70, units="mm", limitsize=F)
 
 ### Figure 4b
 
@@ -174,7 +174,8 @@ cog.data <- read.csv("./data/cog_cats.tsv", sep = "\t", header = T)
 names(cog.data) <- c("genome","gene", "category")
 
 cog.data <- cog.data %>%
-  merge(genome.stats, by = "genome")
+  merge(genome.stats, by = "genome") %>%
+  filter(completeness >= 90, contamination < 5)
 
 cog.counts.all <- cog.data %>%
   select(genome, symbiont, category) %>%
@@ -187,29 +188,191 @@ cog.counts.wide <- cog.counts.all %>%
 count.cols <- cog.counts.wide %>%
   select(-genome, -symbiont)
 
+rownames(count.cols) <- cog.counts.wide$genome 
+
 count.cols.rel <- count.cols / rowSums(count.cols)
+
 bc.dist <- vegdist(count.cols.rel, method = "bray")
 
 set.seed(4)
 
-nmds <- metaMDS(bc.dist, k = 2, trymax = 100)
+pcoa.res <- cmdscale(bc.dist, k = 2, eig = TRUE)
+pcoa.var <- round(100 * pcoa.res$eig / sum(pcoa.res$eig[pcoa.res$eig > 0]), 1)
+pcoa.df <- as.data.frame(pcoa.res$points)
+colnames(pcoa.df) <- c("PCoA1", "PCoA2")
+pcoa.df$genome <- rownames(count.cols.rel)
+pcoa.df$symbiont <- cog.counts.wide$symbiont[match(pcoa.df$genome, cog.counts.wide$genome)]
 
-nmds.df <- as.data.frame(nmds$points)
-nmds.df$genome <- cog.counts.wide$genome
-nmds.df$symbiont <- cog.counts.wide$symbiont 
-
-cog.nmds.p <- ggplot(nmds.df, aes(x = MDS1, y = MDS2, color = symbiont, text = paste(genome)))+
-  geom_point(size = 3) +
+cog.pcoa.p <- ggplot(pcoa.df, aes(x = PCoA1, y = PCoA2, color = symbiont)) +
+  geom_point(size = 4) +
   scale_color_manual(values = rick.colors) +
+  labs(x = paste0("PCoA1 (", pcoa.var[1], "%)"), y = paste0("PCoA2 (", pcoa.var[2], "%)")) +
   theme_minimal() +
   theme(legend.position = "none")
 
-ggsave(cog.nmds.p, file="./plots/Fig4b_cog_nmds.pdf", width=70, height=70, units="mm", limitsize=F)
+ggsave(cog.pcoa.p, file="./plots/Fig4b_cog_pcoa_rev.pdf", width=70, height=70, units="mm", limitsize=F)
 
 adonis2(bc.dist ~ symbiont, data = cog.counts.wide, permutations = 999)
 anosim(bc.dist, grouping = cog.counts.wide$symbiont, permutations = 999)
 
 ### Figure 4c
+
+anvio.dir <- "./data/annotations/anvio_out"
+
+all.files <- list.files(anvio.dir, pattern = "_modules\\.txt$", full.names = TRUE)
+hq.pattern <- str_c(str_escape(hq.genomes), "_modules\\.txt$", collapse = "|")
+hq.files <- all.files[str_detect(basename(all.files), hq.pattern)]
+
+anvio.modules.combined <- map_dfr(hq.files, read_tsv)
+
+anvio.modules.combined.anno <- anvio.modules.combined %>%
+  select(genome_name, module, module_name, module_category, module_subcategory, pathwise_module_completeness) %>%
+  rename("genome" = "genome_name") %>%
+  left_join(genome.stats, by = "genome")
+
+anvio.modules.presence.long <- anvio.modules.combined.anno %>%
+  mutate(presence = as.integer(pathwise_module_completeness >= 0.5))
+
+anvio.modules.presence.mat <- anvio.modules.presence.long %>%
+  select(genome, module, presence) %>%
+  distinct(genome, module, .keep_all = TRUE) %>%
+  pivot_wider(names_from = module, values_from = presence, values_fill = 0) %>%
+  column_to_rownames("genome") %>%
+  as.matrix()
+
+meta.hq <- anvio.modules.combined.anno %>%
+  distinct(genome, symbiont, site, haplotype, completeness, contamination, size, trna, gc) %>%
+  filter(genome %in% rownames(anvio.modules.presence.mat)) %>%
+  arrange(match(genome, rownames(anvio.modules.presence.mat)))
+
+stopifnot(all(meta.hq$genome == rownames(anvio.modules.presence.mat)))
+
+anvio.modules.jacc <- vegdist(anvio.modules.presence.mat, method = "jaccard", binary = TRUE)
+anvio.modules.jacc.hc <- hclust(anvio.modules.jacc, method = "average")
+
+stopifnot(length(anvio.modules.jacc.hc$labels) == nrow(anvio.modules.presence.mat))
+
+symbiont.groups <- sort(unique(meta.hq$symbiont))
+
+module.presence.by.group <- as.data.frame(anvio.modules.presence.mat) %>%
+  rownames_to_column("genome") %>%
+  pivot_longer(-genome, names_to = "module", values_to = "presence") %>%
+  left_join(meta.hq %>% select(genome, symbiont), by = "genome") %>%
+  group_by(symbiont, module) %>%
+  summarise(pct_present = mean(presence) * 100, .groups = "drop")
+
+module.lookup <- anvio.modules.combined.anno %>%
+  distinct(module, module_name, module_category)
+
+module.presence.wide <- module.presence.by.group %>%
+  pivot_wider(names_from = symbiont, values_from = pct_present, values_fill = 0) %>%
+  left_join(module.lookup, by = "module") %>%
+  select(module, module_name, module_category, all_of(symbiont.groups))
+
+module.pattern <- module.presence.wide %>%
+  rowwise() %>%
+  mutate(
+    n_groups_present = sum(c_across(all_of(symbiont.groups)) > 50),
+    max_other_when_1  = if (n_groups_present == 1) {
+      top <- symbiont.groups[which.max(c_across(all_of(symbiont.groups)))]
+      max(c_across(all_of(symbiont.groups))[symbiont.groups != top])
+    } else NA_real_
+  ) %>%
+  ungroup() %>%
+  mutate(
+    pattern = case_when(
+      n_groups_present == length(symbiont.groups) ~ "Core",
+      n_groups_present %in% 2:3 ~ "Accessory",
+      n_groups_present == 1 & max_other_when_1 <= 5    ~ "Unique",
+      n_groups_present == 1 & max_other_when_1 > 5     ~ "Accessory",
+      n_groups_present == 0 ~ "Absent everywhere (excluded)",
+      TRUE ~ "Other"
+    )
+  ) %>%
+  distinct(module, .keep_all = TRUE)
+
+domain.exclusive.mods <- module.pattern %>%
+  filter(pattern %in% c("Core", "Accessory", "Unique")) %>%
+  filter(
+    str_detect(str_to_lower(module_name), "eukaryotes|archaea|animals|fungi|plants") &
+    !str_detect(str_to_lower(module_name), "bacteria|prokaryotes")
+  ) %>%
+  select(module, module_name, module_category, pattern, all_of(symbiont.groups))
+
+implausible.mods <- c(
+  domain.exclusive.mods$module,
+  "M00168",  # CAM, dark (plant-specific)
+  "M00172",  # C4-dicarboxylic acid cycle (C4 photosynthesis, plant-specific)
+  "M00169",  # CAM, dark (plant-specific)
+  "M00173", # reductive tricabroxylic acid cycle (autotrophic carbon fixation)
+  "M00166" # Reductive pentose phosphate cycle / Calvin cycle (autotrophic carbon fixation)
+)
+
+final.modules <- module.pattern %>%
+  filter(pattern %in% c("Core", "Accessory", "Unique")) %>%
+  filter(!module %in% implausible.mods) %>%
+  filter(module_category != "Gene set") %>% 
+  arrange(factor(pattern, levels = c("Core", "Accessory", "Unique")), module_category)
+
+heat.mat <- anvio.modules.presence.mat[, final.modules$module]
+stopifnot(identical(colnames(heat.mat), final.modules$module))
+
+genome.labels <- meta.hq %>%
+  distinct(genome, site, haplotype) %>%
+  mutate(
+    sample_id = str_extract(genome, "^[^.]+"),
+    display_label = paste0(haplotype, " (", site, ") - ", sample_id)
+  )
+stopifnot(!anyDuplicated(genome.labels$display_label))
+
+new.rownames <- genome.labels$display_label[match(rownames(heat.mat), genome.labels$genome)]
+stopifnot(!anyNA(new.rownames))
+
+row.anno <- data.frame(symbiont = meta.hq$symbiont[match(rownames(heat.mat), meta.hq$genome)])
+rownames(row.anno) <- new.rownames
+
+col.anno <- final.modules %>% select(module, pattern, module_category) %>% column_to_rownames("module")
+col.anno <- col.anno[colnames(heat.mat), , drop = FALSE]
+
+mod.labels <- paste0(final.modules$module, " – ", final.modules$module_name)
+
+rownames(heat.mat) <- new.rownames
+colnames(heat.mat) <- mod.labels
+rownames(col.anno) <- mod.labels
+
+stopifnot(length(anvio.modules.jacc.hc$labels) == nrow(heat.mat))
+
+gap.positions <- c(
+  sum(final.modules$pattern == "Core"),
+  sum(final.modules$pattern %in% c("Core", "Accessory"))
+)
+
+heat.mat.t <- t(heat.mat)
+
+module.heatmap.test.p <- pheatmap(
+  heat.mat,
+  cluster_rows = anvio.modules.jacc.hc,   
+  cluster_cols = FALSE,
+  treeheight_row = 0,                     
+  treeheight_col = 0,
+  gaps_col = gap.positions,               
+  annotation_row = row.anno,              
+  annotation_colors = list(
+    symbiont = rick.colors,
+    pattern  = c("Core" = "grey70", "Accessory" = "#f4a582", "Unique" = "#2166ac")),
+  annotation_names_row = FALSE,
+  annotation_names_col = FALSE,
+  color = c("#f0f0f0", "#4d4d4d"),
+  legend = FALSE,
+  annotation_legend = FALSE,
+  show_rownames = FALSE,
+  show_colnames = FALSE,
+  border_color = "white"
+)
+
+ggsave(module.heatmap.test.p, file="./plots/Fig4c.module.heatmap.pdf", width=120, height=130, units="mm", limitsize=F)
+
+### Figure 4d
 
 tpm <- read.csv("./data/atp.tpm.csv", sep =",")
 gene.names <- read.csv("./data/gene.names.tsv", sep ="\t", header = FALSE)
@@ -228,12 +391,12 @@ tpm.atp <- tpm.atp %>%
  
 atp.tpm.boxplot.p <- ggplot(tpm.atp) +
   geom_boxplot(aes(x = interaction(sym, host), y = tpm, fill = interaction(sym, host))) +
-  scale_fill_manual(values = c("Grellia.Hawaii" = "#6286c4", "Grellia.Vienna" = "#6286c4")) +
+  scale_fill_manual(values = c("Grellia.Hawaii" = "#4876ba", "Grellia.Vienna" = "#4876ba")) +
   facet_wrap(~ cat, ncol = 1) +
   theme_minimal() +
   theme(legend.position = "none")
 
-ggsave(atp.tpm.boxplot.p, file="./plots/Fig4c_atp_tpm.pdf", width=40, height=70, units="mm", limitsize=F)
+ggsave(atp.tpm.boxplot.p, file="./plots/Fig4d_atp_tpm_rev.pdf", width=35, height=70, units="mm", limitsize=F)
 ```
 
 # Figure Supp 4
@@ -245,7 +408,8 @@ genome.stats <- genome.stats %>%
   mutate(symbiont_haplotype_site = paste(symbiont, haplotype, site, sep = "_"))
 
 atp <- atp %>%
-  left_join(genome.stats %>% select(genome, symbiont_haplotype_site), by = "genome")
+  left_join(genome.stats, by = "genome") %>%
+  filter(completeness >= 90, contamination < 5)
 
 atp.pct <- atp %>%
   group_by(symbiont_haplotype_site, gene) %>%
@@ -268,11 +432,10 @@ atp.pct <- atp.pct %>%
   arrange(match(symbiont, rickettsia.order)) %>% 
   mutate(symbiont_haplotype_site = factor(symbiont_haplotype_site, levels = unique(symbiont_haplotype_site)))
 
-atp.adp.heatmap.p <- ggplot(atp.pct, aes(x = symbiont_haplotype_site, y = gene, fill = pct_genomes_with_gene)) +
+atp.adp.heatmap.p <- ggplot(subset(atp.pct, gene_type == "Translocase"), aes(x = symbiont_haplotype_site, y = gene, fill = pct_genomes_with_gene)) +
   geom_tile(color = "white") +
   geom_text(aes(label = round(pct_genomes_with_gene, 0)), size = 3) +
   scale_fill_gradient(low = "white", high = "steelblue", name = "% Genomes") +
-  facet_wrap(~ gene_type, ncol =1, scales = "free_y") + 
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 

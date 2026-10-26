@@ -1,42 +1,42 @@
 genome,symbiont,site,haplotype,completeness,contamination,X16S,size,trna,gc
-1272_A.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,81.55,1.28,no,1150816,17,0.28
-1272_C.dastool.metabat.bin1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,98.9,0,yes,1268170,19,0.28
-1272_G.dastool.metabat.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1328047,21,0.28
-1272_I.dastool.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1366342,20,0.28
-1272_J.dastool.phyloflash.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1489946,21,0.28
-1272_L.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1447316,21,0.28
-1717_A.autometa.bin1_2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H3,98.9,0,no,1463115,21,0.28
-1717_B.dastool.metabat.bin1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1211893,21,0.28
-1717_C.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1580166,21,0.28
-1717_D.metabat.bin3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1498402,21,0.28
-1717_F.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1719034,21,0.28
-1717_G.dastool.phyloflash.bin2_sub.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,98.9,0,yes,1372395,21,0.28
-2181_A.dastool.metabat.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata_Marinoinvertebrata,Aquarickettsia,Mallorca,H2,98.9,1.23,yes,1423602,18,0.28
-2181_B.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata_Marinoinvertebrata,Aquarickettsia,Mallorca,H2,100,0,yes,1478620,21,0.28
-2181_C.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata_Marinoinvertebrata,Aquarickettsia,Mallorca,H2,96.7,1.16,yes,1437541,21,0.28
-1272_F.dastool.metabat.bin1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Hawai'i,H6,88.67,0,yes,1364909,19,0.3
-1272_K.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Hawai'i,H6,98.9,0,yes,1495609,21,0.3
-1717_H.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Carrie Bow Cay,H8,100,0,yes,1540010,21,0.3
-1717_I.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Carrie Bow Cay,H8,100,0,yes,1481973,21,0.3
-1717_J.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H8,100,0,yes,1498407,21,0.3
-1717_K.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H8,100,0,yes,1810514,21,0.37
-1717_L.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1464737,21,0.3
-1717_M.metabat.bin8.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Carrie Bow Cay,H7,98.25,8.28,yes,1384069,21,0.3
-1717_O.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1491320,21,0.31
-1717_P.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1454061,21,0.3
-1717_R.metabat.bin4.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1296904,21,0.3
-1717_T.dastool.metabat.bin6.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1312071,21,0.3
-1966_A.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Hawai'i,H2,98.9,0,yes,1273960,21,0.3
-3917_AE.autometa.bin1_3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Hawai'i,H2,91.06,0.75,yes,1194047,20,0.3
-3917_B.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,66.29,4.45,yes,1269632,18,0.34
-3917_C.autometa.bin1_2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,86.48,2.75,no,1107293,20,0.3
-3917_E.metabat.bin3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,93.04,0.06,no,1093083,20,0.3
-3917_F.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,100,0,yes,1223950,18,0.3
-3917_G.metabat.bin3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,81.54,1.65,no,1020069,20,0.3
-3917_H.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,95.87,4.5,yes,1353372,20,0.33
-3917_J.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,96.7,0,yes,1225691,21,0.3
-4745_G.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Vienna,H2,82.47,3.3,yes,1170193,17,0.31
-4745_J.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Vienna,H2,74.68,0.55,yes,1084908,19,0.33
-2181_D.metabat.bin6.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_GCA-2402195,Megaira,Mallorca,H11,99.05,5.69,yes,1679582,21,0.33
-2181_E.dastool.phyloflash.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_GCA-2402195,Megaira,Mallorca,H11,99.05,3.79,yes,1487144,21,0.34
-2181_F.metabat.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_GCA-2402195,Megaira,Mallorca,H11,99.05,3.79,yes,1479989,21,0.34
+1272_A.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,81.55,1.28,no,1150816,17,0.2814
+1272_C.dastool.metabat.bin1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,98.9,0,yes,1268170,19,0.2790
+1272_F.dastool.metabat.bin1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Hawai'i,H6,88.67,0,yes,1364909,19,0.3041
+1272_G.dastool.metabat.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1328047,21,0.2769
+1272_I.dastool.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1366342,20,0.2786
+1272_J.dastool.phyloflash.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1489946,21,0.2786
+1272_K.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Hawai'i,H6,98.9,0,yes,1495609,21,0.3027
+1272_L.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H4,100,0,yes,1447316,21,0.2780
+1717_A.autometa.bin1_2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Hawai'i,H3,98.9,0,no,1463115,21,0.2777
+1717_B.dastool.metabat.bin1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1211893,21,0.2776
+1717_C.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1580166,21,0.2789
+1717_D.metabat.bin3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1498402,21,0.2775
+1717_F.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,100,0,yes,1719034,21,0.2812
+1717_G.dastool.phyloflash.bin2_sub.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Aquarickettsia,Twin Cays,H4,98.9,0,yes,1372395,21,0.2781
+1717_H.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Carrie Bow Cay,H8,100,0,yes,1540010,21,0.3034
+1717_I.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Carrie Bow Cay,H8,100,0,yes,1481973,21,0.3027
+1717_J.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H8,100,0,yes,1498407,21,0.3029
+1717_K.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H8,100,0,yes,1810514,21,0.3670
+1717_L.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1464737,21,0.3023
+1717_M.metabat.bin8.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Carrie Bow Cay,H7,98.25,8.28,yes,1384069,21,0.3041
+1717_O.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1491320,21,0.3144
+1717_P.autometa.bin2_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1454061,21,0.3027
+1717_R.metabat.bin4.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1296904,21,0.3035
+1717_T.dastool.metabat.bin6.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae,Benwitzia,Twin Cays,H7,98.9,0,yes,1312071,21,0.3035
+1966_A.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Hawai'i,H2,98.9,0,yes,1273960,21,0.3006
+2181_A.dastool.metabat.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata_Marinoinvertebrata,Aquarickettsia,Mallorca,H2,98.9,1.23,yes,1423602,18,0.2769
+2181_B.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata_Marinoinvertebrata,Aquarickettsia,Mallorca,H2,100,0,yes,1478620,21,0.2762
+2181_C.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata_Marinoinvertebrata,Aquarickettsia,Mallorca,H2,96.7,1.16,yes,1437541,21,0.2771
+2181_D.metabat.bin6.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_GCA-2402195,Megaira,Mallorca,H11,99.05,5.69,yes,1679582,21,0.3331
+2181_E.dastool.phyloflash.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_GCA-2402195,Megaira,Mallorca,H11,99.05,3.79,yes,1487144,21,0.3377
+2181_F.metabat.bin2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Rickettsiaceae_GCA-2402195,Megaira,Mallorca,H11,99.05,3.79,yes,1479989,21,0.3370
+3917_AE.autometa.bin1_3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Hawai'i,H2,91.06,0.75,yes,1194047,20,0.3007
+3917_B.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,66.29,4.45,yes,1269632,18,0.3403
+3917_C.autometa.bin1_2.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,86.48,2.75,no,1107293,20,0.3033
+3917_E.metabat.bin3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,93.04,0.06,no,1093083,20,0.3023
+3917_F.autometa.bin1_1.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,100,0,yes,1223950,18,0.3014
+3917_G.metabat.bin3.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,81.54,1.65,no,1020069,20,0.3002
+3917_H.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,95.87,4.5,yes,1353372,20,0.3341
+3917_J.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Bremen,H2,96.7,0,yes,1225691,21,0.3018
+4745_G.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Vienna,H2,82.47,3.3,yes,1170193,17,0.3083
+4745_J.autometa.bin1_0.Bacteria_Proteobacteria_Alphaproteobacteria_Rickettsiales_Midichloriaceae_Marinoinvertebrata,Grellia,Vienna,H2,74.68,0.55,yes,1084908,19,0.3330
